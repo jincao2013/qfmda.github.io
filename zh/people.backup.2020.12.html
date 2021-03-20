@@ -1,0 +1,3220 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+	<meta name="renderer" content="webkit">
+    <meta name="author" content="">
+    <link rel="icon" href="logo.ico">
+
+    <title>Quantum Functional Materials Design and Application Laboratory</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../dist/css/cover_zh.css" rel="stylesheet">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- <script src="assets/js/ie-emulation-modes-warning.js"></script> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="dist/js/respond.min.js"></script>
+      <script src="dist/js/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body onload="init_display()">
+
+  <!-- 1. header start -->
+    <div class="container-fluid" id="site-wrapper">
+
+      <div class="row head_1">
+        <div class="row">
+          <div class="col-md-9"></div>
+          <div class="col-md-2">
+            <ul class="version">
+              <li class="active"><a href="../index_zh.html">中文</a></li>
+              <li><a href="../index_en.html">English</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <h1 class="lab_title">
+              量 子 功 能 材 料 设 计 与 应 用 实 验 室
+            </h1>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+
+      <div class="row head_2_nav">
+        <div class="col-md-10 col-md-offset-1" style="background-color:">
+          <ul class="nav masthead-nav">
+            <li><a href="../index_zh.html">主页</a></li>
+            <li><a href="research.html">研究方向</a></li>
+            <li class="active"><a href="people.html">团队成员</a></li>
+            <li><a href="highlight.html">科研进展</a></li>
+            <li><a href="news.html">最新动态</a></li>
+            <li><a href="publications.html">发表论文</a></li>
+            <li><a href="join_us.html">招生招聘</a></li>
+            <li><a href="contact_us.html">联系我们</a></li>
+          </ul>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+    </div>
+
+<!-- 1. header end -->
+
+<!-- 2. main start -->
+<div class="row" style="height: 50px;"></div>
+
+    <div class="container ">
+
+      <!-- Group Leader -->
+
+      <!--
+      <h1 class="title">Group Leader</h1>
+      <div style=" border:2px solid grey;"></div>
+      -->
+
+      <div class="row">
+
+        <div class="col-md-3 "></div>
+
+        <div class="col-md-6 ">
+          <div class="row visiting_card">
+            <div class="col-md-5">
+              <a data-toggle="modal" href="#ygyao"><img style="width:100%; height:100%" src="../images/people/ygyao.jpg" alt="..."></a>
+            </div>
+            <div class="col-md-7">
+              <h3 class="title">姚裕贵 教授</h3>
+              <p class="Ptitle">
+                物理学院 教授 执行院长</br>
+                长江学者特聘教授</br>
+                国家杰出青年基金获得者</br>
+                国家万人计划科技创新领军人才</br>
+                科技部中青年科技创新领军人才</br>
+                北京大学量子材料中心客座教授</br>
+              </p>
+              <h4 class="text"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> 中心教学楼 721</h4>
+              <h4 class="text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> ygyao@bit.edu.cn</h4>
+              <h4 class="text"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> <a href="http://physics.bit.edu.cn/szdw/zzjzg/zg/yyg/index.htm" target="_blank">个人主页</a></h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 "></div>
+
+      </div>
+
+
+      <!--
+      <h1 class="title">教职工</h1>
+      <div style=" border:2px solid grey;"></div>
+      -->
+
+
+      <div class="row" style="height: 30px;"></div>
+      <div class="row">
+        <h3 class="peoplenameblack">理论教师</h3>
+        <ul class="peoplename list-unstyled ul_two">
+          <li><a data-toggle="modal" href="#wxfeng">冯万祥</a></li>
+          <li><a data-toggle="modal" href="#wguo">郭伟</a></li>
+          <li><a data-toggle="modal" href="#ccliu">刘铖铖(优青，青长)</a></li>
+          <li><a data-toggle="modal" href="#gbliu">刘贵斌</a></li>
+          <li><a data-toggle="modal" href="#ycli">李元昌(青长)</a></li>
+          <li><a data-toggle="modal" href="#jma">马杰(青千)</a></li>
+          <li><a data-toggle="modal" href="#">余智明</a></li>
+          <li><a data-toggle="modal" href="#">喻益湘</a></li>
+        </ul>
+      </div>
+      <div class="row" style="height: 30px;"></div>
+
+      <div class="row">
+        <h3 class="peoplenameblack">实验教师</h3>
+        <ul class="peoplename list-unstyled ul_two">
+          <li><a data-toggle="modal" href="#jxduan">段俊熙</a></li>
+          <li><a data-toggle="modal" href="#jfhan">韩俊峰</a></li>
+          <li><a data-toggle="modal" href="#">李彩珍</a></li>
+          <li><a data-toggle="modal" href="#xli">李翔</a></li>
+          <li><a data-toggle="modal" href="#">王刚(青千)</a></li>
+          <li><a data-toggle="modal" href="#qswang">王钦生</a></li>
+          <li><a data-toggle="modal" href="#zwwang">王秩伟</a></li>
+          <li><a data-toggle="modal" href="#wdxiao">肖文德</a></li>
+          <li><a data-toggle="modal" href="#">周家东</a></li>
+        </ul>
+      </div>
+      <div class="row" style="height: 30px;"></div>
+
+      <div class="row">
+        <h3 class="peoplenameblack">支撑人员</h3>
+        <ul class="peoplename list-unstyled ul_two">
+          <li>毕雪</li>
+          <li>龚赛</li>
+          <li>熊小路</li>
+        </ul>
+      </div>
+      <div class="row" style="height: 30px;"></div>
+
+      <div class="row">
+        <h3 class="peoplenameblack">博士后</h3>
+        <ul class="peoplename list-unstyled ul_two">
+          <li>陈东云(出站)</li>
+          <li>毛鹏程(出站)</li>
+          <li>杨惠霞(出站)</li>
+          <li>牛秉慧</li>
+          <li>王殿武</li>
+          <li>张闰午</li>
+          <li>郑旭</li>
+        </ul>
+
+      </div>
+      <div class="row" style="height: 30px;"></div>
+
+      <div class="row">
+        <h3 class="peoplenameblack">毕业学生</h3>
+        <ul class="peoplename list-unstyled ul_two">
+          <li>盖彦峰</li>
+          <li>胡军平</li>
+          <li>Abid，Muhammad阿必德</li>
+          <li>付波涛</li>
+          <li>管闪</li>
+          <li>刘畅</li>
+          <li>张小琴</li>
+          <li>张福如</li>
+          <li>杨霈</li>
+          <li>吴泽文</li>
+          <li>李思</li>
+          <li>张泽英</li>
+          <li>刘立平</li>
+          <li>王茂原</li>
+          <li>张婷婷</li>
+          <li>董旭</li>
+          <li>张闰午</li>
+          <li>吴宏博</li>
+          <li>熊小路</li>
+          <li>阙茂飞</li>
+          <li>阙茂飞</li>
+          <li>袁悦</li>
+          <li>焦泽锋</li>
+          <li>刘雨浓</li>
+          <li>庞亚会</li>
+          <li>范晓彤</li>
+          <li>李菲</li>
+          <li>魏增鑫</li>
+          <li>卓拉</li>
+          <li>马源骏</li>
+          <li>高云珊</li>
+          <li>秦新舜</li>
+          <li>石浩</li>
+          <li>卢天奇</li>
+          <li>李昂泽</li>
+          <li>谢玲玲</li>
+          <li>徐向君</li>
+        </ul>
+      </div>
+      <div class="row" style="height: 30px;"></div>
+
+
+
+<!-- 0 Yugui Yao start -->
+      <!-- Modal -->
+      <div class="row">
+
+        <div class="modal fade" id="ygyao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Prof. Yugui Yao</h4>
+              </div>
+              <div class="modal-body">
+
+  <!-- Yugui Yao content start -->
+  <div class="container ">
+
+  <div class="row">       <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>姚裕贵</b> <small>教授</small></h1>
+    </div>
+    <div class="col-md-9 lead text17">
+      物理学院 教授 执行院长</br>
+      长江学者特聘教授</br>
+      国家杰出青年基金获得者</br>
+      国家万人计划科技创新领军人才</br>
+      科技部中青年科技创新领军人才</br>
+      北京大学量子材料中心客座教授</br>
+      <p style="height=5px"></p>
+      电话： 010-68918672 (office)</br>
+      E-mail： ygyao@bit.edu.cn; ygyao@aphy.iphy.ac.cn</br>
+      办公地点: 721, 中心教学楼</br>
+    <p><a href="http://physics.bit.edu.cn/szdw/gccrc/zjxzjq/yyg13/index.htm" target="_blank"><span class="glyphicon glyphicon-hand-right"></span> 个人主页</a></p>
+    <p><a href="http://www.researcherid.com/rid/A-8411-2012" target="_blank"><span class="glyphicon glyphicon-hand-right"></span> 文章列表</a></p>
+    </div>
+  </div>
+  
+  <div class="row">       <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 个人简介</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="text17">
+        1992年在南开大学获得物理学学士学位，其后分别获得中科院上海光机所的光学硕士学位(1995)和力学所的力学博士学位(1999)。
+      </p>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 工作经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="text17">
+        1999-2003年先后在中科院物理所、美国Texas大学Austin分校从事博士后研究；2001-2011年在中科院物理所先后任助理研究员、副研究员、研究员；2011年底调到北京理工大学工作，现任物理学院执行院长。
+      </p>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 获奖情况 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 获奖情况</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="text17" style="text-align:justify; text-justify:inter-ideograph;">
+        2011年获得中国科学院杰出科技成就奖；2012年获得国家杰出青年基金资助、入选长江学者特聘教授计划；2014年入选科技部中青年科技创新领军人才计划；2016年入选国家万人计划中的科技创新领军人才计划；2017年获北京市高等教育教学成果二等奖；2018年入选科睿唯安物理领域高被引科学家名单，同年获得国家科学技术奖自然科学奖二等奖（第一完成人）。
+      </p>
+    </div>
+  </div>
+  
+  <div class="row">       <!-- 科研方向 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 科研方向</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="text17">
+        研究方向为凝聚态物理、计算物理和材料物理，具体有： 
+      </p>
+    </div>
+    <div class="col-md-8">
+      <ol class="text" style="text-align:justify; text-justify:inter-ideograph;">
+        <li>
+          发展基于量子力学的计算方法，研究材料中反常霍尔效应、自旋霍尔效应、轨道霍尔效应、平面霍尔效应、热电效应、磁光效应、磁阻、磁矩以及拓扑等量子物性，特别关注自旋轨道耦合体系的电子结构、贝里相位与量子物性之间的关系；在此基础上将开发和设计相应的高性能并行计算软件包。
+        </li>
+        <li>
+          结合理论设计、计算模拟和实验探索，研究各种新型量子功能材料（如拓扑绝缘体、拓扑半金属、拓扑超导体、二维层状量子材料等）及相关物性；通过研究光与物质的相互作用机理，设计出高效光能源量子转换材料，并制备高效的光电池和光催化器件。
+        </li>
+      </ol>
+    </div>
+  </div>
+  
+  <div class="row">       <!-- 学术成就 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 学术成就</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="text17" style="text-align:justify; text-justify:inter-ideograph;">
+        迄今共发表SCI论文150余篇【包括 Phy. Rev. Lett.（22篇），Nature子刊（4篇）等】，在反常输运、硅烯、石墨烯、拓扑材料与物性等领域的研究成果具有重要国际影响并被同行包括多位诺贝尔奖获得者广泛引用，共被SCI引用10000余次，目前每年引用2000余次，单篇最高引用1200余次，4篇论文引用超过500次，H指数45，并入选科睿唯安物理领域“高被引科学家”名单【物理学科 2018 年全球共 211 人】。曾在美国 APS、MRS年会等国际重要会议多次作邀请报告。承担过多项国家基金面上项目、基金委重点项目、创新研究群体项目、国家重点研发计划、973计划和量子调控等项目。</br>
+      </p>
+    </div>
+  </div>
+  
+  <div class="row">       <!-- 学术贡献 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 学术贡献</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="text17" style="text-align:justify; text-justify:inter-ideograph;">
+        针对材料中贝里相位效应相关的关键科学问题，率先发展了反常输运物理量与拓扑不变量的第一性原理计算方法，并系统地应用于反常输运和拓扑物性的研究。是第一性原理研究反常输运现象的开拓者之一，关于反常输运的部分成果被写进了教科书；同时引领了硅烯等二维拓扑材料的研究，所提出的理论模型被冠名，等等。这些原创成果加深了人们对真实复杂材料中新奇量子现象的理解，加速了新量子态材料的发现，推动了凝聚态和计算物理相关领域的发展。具体简述如下：</br>
+      </p>
+    </div>
+    <div class="col-md-8">
+      <ol class="text" style="text-align:justify; text-justify:inter-ideograph;">
+        <li>
+          <b style="color: #3d5afe;">反常输运研究：</b></br>
+          1881年霍尔发现反常霍尔效应，一百多年以来人们对它的物理起源一直存在争议。以前人们通常认为反常霍尔效应是由外在散射机制引起，而忽略内禀贝里相位机制。2004年姚裕贵等率先发展了反常霍尔电导率的第一性原理方法，定量地研究了反常霍尔效应中基于贝里相的内禀机制，指出了内禀机制的重要性。该工作解决了长期悬而未决的科学难题-“内禀机制贡献在反常霍尔效应中是否重要”，颠覆了此前“外在机制占主导，内禀机制不重要”的传统认识，实质性地推动了反常霍尔效应研究的发展。该工作单篇引用达364次，并被国际上多个实验组验证。著名计算物理学家美国科学院院士Vanderbilt在2006年Rahman奖（APS计算物理方面最高奖）的获奖报告中曾高度评价此工作，并在其论文中指出该研究具有开拓性。与实验合作，提出了反常霍尔效应内禀和外在部分的分解方法，并给出反常霍尔效应中内禀电导率和磁化强度成线性关系的理论解释及定量计算，该工作被写进Michael P. Marder的《Condensed Matter Physics》教科书。在此基础上，我们在国际上还率先发展了计算其他反常输运物理量(如反常热电系数、自旋霍尔电导率等)的第一性原理方法，定量解释和预测了相关实验。</br>
+        </li>
+        <li>
+          <b style="color: #3d5afe;">拓扑绝缘体研究：</b></br>
+          <b style="color: #3d5afe;">二维拓扑绝缘体的研究：</b></br>
+            量子自旋霍尔效应态由 Kane等在石墨烯模型中首次提出，姚裕贵等在国际上率先研究了石墨烯中的自旋轨道耦合相互作用，并指出实验条件下量子自旋霍尔效应在纯石墨烯中不可能实现。该工作获得了国际上的广泛认可，单篇引用574次。其中，诺贝尔奖获得者Geim和美国科学院院士Kane（量子自旋霍尔效应和拓扑绝缘体概念提出者）分别在他们的Rev. Mod. Phys.综述中引用该结论。在此基础上，提出了石墨烯中通过吸附铁原子或者将其放在铁磁绝缘体上实现量子反常霍尔效应的全新方案，该工作是最早的几个理论方案之一，激发了诸多后续理论和实验研究，单篇引用356次。与石墨烯相比，硅烯等具有强的自旋轨道耦合作用，能隙易调，更易谷极化，与当代成熟的硅基半导体工艺兼容等优势，预计在未来的自旋电子学和纳米电子学器件等领域具有广泛的应用前景。2011年姚裕贵等首次指出类石墨烯体系-‘硅烯’、‘锗烯’、‘锡烯’是二维拓扑绝缘体，并预测其可能实现量子自旋霍尔效应（相关理论文章单篇引用1255次、674次）、谷极化的量子反常霍尔效应和拓扑高温超导等，该系列工作引发了理论和实验上研究硅烯、锗烯、锡烯的热潮，文中提出的相关理论模型被文献中命名为(Liu-Yao-Feng-Ezawa 模型)，同时World Scientific 出版社出版的《Quantum Hall Effects》专著第三版第21章收录了该工作，并进行了重点引用。2012年和实验合作在金属银衬底上合成了硅烯，是世界上最早合成硅烯的三个实验组之一，相关实验论文单篇引用741次、490次。此外，还预测了两类性能优良的量子自旋霍尔绝缘体：Bi4Br4和能隙最大的铋烷体系，实验正在证实中。</br>
+
+          <b style="color: #3d5afe;">三维拓扑绝缘体的研究：</b></br>
+            姚裕贵等还率先发展了适用于任意体系的拓扑不变量Z2的第一性原理方法，国际上首次实现了无空间反演体系Z2的计算，并利用该方法预测了Half-Heusler和黄铜矿两个新体系中可能存在大量三维拓扑绝缘体，所预言的部分拓扑材料已被美国、波兰、中国等研究组的实验所证实。该系列工作发表以后立即引起同行的重视，被包括国外的综述在内的很多论文引用，美国科学院院士张首晟教授也在他的综述Rep. Prog. Phys.中大篇幅引用我们的工作；预测了beta-Bi4X4（X=Br, I）体系是弱拓扑绝缘体，该体系是第一个被实验所证实的三维弱拓扑绝缘体。</br>
+        </li>
+        <li>
+          <b style="color: #3d5afe;">拓扑半金属研究：</b></br>
+            理论与实验相结合，国际上首次验证二维Cu2Si中存在Dirac节线费米子；理论发现了第二类节线半金属；理论发现强拓扑绝缘体和弱拓扑绝缘体拓扑相变区间会形成复合Weyl半金属；理论发现第二类Weyl半金属中存在新奇磁响应行为以及朗道能级坍塌现象；应变下拓扑半金属的拓扑相变与人工引力场模拟；等等。</br>
+        </li>
+      </ol>
+    </div>
+  </div>
+  
+  <div class="row">       <!-- 教学经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 教学经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="text17">
+        主讲本科生课程《计算科学》、《专业导论》和研究生课程《计算物理》。
+      </p>
+    </div>
+  </div>
+    
+  <h1></h1>
+  </div>
+  
+<!-- Yugui Yao content end -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- 0 Yugui Yao end -->
+
+<!-- 1 gbliu start -->
+        <div class="modal fade" id="gbliu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Guibin Liu</h4>
+              </div>
+              <div class="modal-body">
+  <!-- gbliu content start -->
+    <div class="container ">
+
+    <div class="row">       <!-- 基本信息 -->
+      <div class="col-md-9">
+        <h1><b>刘贵斌</b> <small>副教授</small></h1>
+      </div>
+      <div class="col-md-9 lead text">
+        邮箱： gbliu@bit.edu.cn</br>
+        办公地点： 中心楼711</br>
+      </div>
+    </div>
+
+    <div class="row">       <!-- 教育经历 -->
+      <div class="col-md-9">
+        <h2 class="title"><b> 教育经历</b></h2>
+      </div>
+      <div class="col-md-9">
+          <table class="table table-hover">
+            <tr class="text" style="background-color:#cfd8dc">
+              <th>年份</th>
+              <th>身份</th>
+              <th>单位</th>
+            </tr>
+            <tr class="text">
+              <td>2000.7 ~ 2004.6</td>
+              <td>学士</td>
+              <td>中国科学技术大学天文与应用物理系（理学学士及计算机学士双学位）</td>
+            </tr>
+            <tr class="text">
+              <td>2004.7 ~ 2010.6</td>
+              <td>博士</td>
+              <td>中国科学院物理研究所</td>
+            </tr>
+          </table>
+      </div>
+    </div>
+
+    <div class="row">       <!-- 工作经历 -->
+      <div class="col-md-9">
+        <h2 class="title"><b> 工作经历</b></h2>
+      </div>
+      <div class="col-md-9">
+          <table class="table table-hover">
+            <tr class="text" style="background-color:#cfd8dc">
+              <th>年份</th>
+              <th>身份</th>
+              <th>单位</th>
+            </tr>
+            <tr class="text">
+              <td>2010 ~ 2012</td>
+              <td>博士后</td>
+              <td>香港大学物理系</td>
+            </tr>
+            <tr class="text">
+              <td>2012 ~ 2015</td>
+              <td>讲师</td>
+              <td>北京理工大学物理学院</td>
+            </tr>
+            <tr class="text">
+              <td>2015 ~ </td>
+              <td>副教授</td>
+              <td>北京理工大学物理学院</td>
+            </tr>
+          </table>
+      </div>
+    </div>
+
+    <div class="row text">        <!-- 研究方向 -->
+      <div class="col-md-9">
+        <h2 class="title"><b> 研究方向</b></h2>
+      </div>
+      <div class="col-md-9">
+          <p class="lead text">
+            凝聚态理论物理及计算物理。
+			
+            利用第一性原理计算、紧束缚（TB）模型、蒙特卡罗 （Monte Carlo）等方法，
+			结合解析推导来研究凝聚态材料的新奇电、光、磁等特性。
+			
+            目前主要研究内 容为低维体系中各种新颖的物理现象及理论。
+		  </p>
+      </div>
+    </div>
+
+    <div class="row">       <!-- 发表论文 -->
+      <div class="col-md-9">
+        <h2 class="text"><b> 发表论文</b></h2>
+      </div>
+      <div class="col-md-9">
+          <h4 class="publication">
+            <ul class="list-unstyled">
+              <li>
+                &quot;First-principles investigations on the Berry phase effect in spin-orbit coupling materials&quot;,<br />
+                Wanxiang Feng, Cheng-Cheng Liu, Gui-Bin Liu, Jin-Jian Zhou &amp; Yugui Yao<br />
+                <strong><em>Computational Materials Science.</em></strong> Pages 428–447 (2016).
+                <a class="highlight_1" href="http://www.sciencedirect.com/science/article/pii/S0927025615005893" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                          &quot;Observation of intervalley quantum interference in epitaxial monolayer tungsten diselenide&quot;,<br />
+                    Hongjun Liu, Jinglei Chen, Hongyi Yu, Fang Yang, Lu Jiao, Gui-Bin Liu, Wingking Ho, Chunlei<br />
+                  Gao, Jinfeng Jia, Wang Yao, and Maohai Xie,<br />      <strong><em>Nature Commun.</em></strong>  6, 8180 (2015).
+                <a class="highlight_1" href="http://dx.doi.org/10.1038/ncomms9180" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                    &quot;Electronic structures and theoretical modelling of two-dimensional group-VIB transition metal dichalcogenides&quot;,<br />
+                    Gui-Bin Liu, Di Xiao, Yugui Yao, Xiaodong Xu, and Wang Yao<br />
+                    <em><strong>Chem. Soc. Rev. </strong></em> 44, 2643 (2015)..
+                <a class="highlight_1" href="http://dx.doi.org/10.1039/C4CS00301B" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Topological edge states in singleand multi-layer Bi4Br4&quot;,<br />
+                    Jin-Jian Zhou, Wanxiang Feng, Gui-Bin Liu, and Yugui Yao<br />
+                    <em><strong>New J. Phys.</strong></em>  17, 015004 (2015)..
+                <a class="highlight_1" href="http://dx.doi.org/10.1088/1367-2630/17/1/015004" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Nonlinear Valley and Spin Currents from Fermi Pocket Anisotropy in 2D Crystals&quot;,<br />
+                    Hongyi Yu, Yue Wu, Gui-Bin Liu, Xiaodong Xu, and Wang Yao,<br />
+                    <em><strong>Phys. Rev. Lett</strong></em>  113, 156603 (2014).
+                <a class="highlight_1" href="http://dx.doi.org/10.1103/PhysRevLett.113.156603" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Intervalley coupling by quantum dot
+                    confinement potentials in monolayer transition metal dichalcogenides&quot;,<br />
+                    Gui-Bin Liu,Hongliang Pang, Yugui Yao, and Wang Yao,<br />
+                    <em><strong>New J. Phys</strong></em>  16, 105011 (2014).
+                <a class="highlight_1" href="http://dx.doi.org/10.1088/1367-2630/16/10/105011" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Dirac cones and Dirac saddle points of bright excitons in monolayer transition metal dichalcogenides&quot;,<br />
+                    Hongyi Yu, Gui-Bin Liu, Pu Gong, Xiaodong Xu, and Wang Yao,<br />
+                    <em><strong>Nature Commun.</strong></em>  5, 3876 (2014).
+                <a class="highlight_1" href="http://dx.doi.org/10.1038/ncomms4876" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Spinorbit- coupled quantum wires and Majorana fermions on zigzag edges of monolayer transition-metal dichalcogenides&quot;,<br />
+                    Rui-Lin Chu, Gui-Bin Liu, Wang Yao, Xiaodong Xu, Di Xiao, and Chuanwei Zhang<br />
+                    <em><strong>Phys. Rev. B.</strong></em> 89, 155317 (2014).
+                <a class="highlight_1" href="http://dx.doi.org/PhysRevB.89.155317" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Stability, electronic, and magnetic properties of the magnetically doped topological insulators Bi2Se3, Bi2Te3, and Sb2Te3&quot;,<br />
+                    Jian-Min Zhang, Wenmei Ming, Zhigao Huang, Gui-Bin Liu, Xufeng Kou, Yabin Fan, Kang L.<br />
+                    Wang, and Yugui Yao,<br />
+                  <em><strong>Phys. Rev. B. </strong></em> 88, 235131 (2013).
+                <a class="highlight_1" href="http://dx.doi.org/10.1103/PhysRevB.88.235131" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Three-band tight-binding model for monolayers of group-VIB transition metal dichalcogenides&quot;,<br />
+                    Gui-Bin Liu, Wen-Yu Shan, Yugui Yao, Wang Yao, and Di Xiao<br />
+                  <em><strong>Phys. Rev. B.</strong></em>  88, 085433 (2013).
+                <a class="highlight_1" href="http://dx.doi.org/10.1103/PhysRevB.88.085433" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Optical signature of symmetry variations and spin-valley coupling in atomically thin tungsten dichalcogenides&quot;,<br />
+                    Hualing Zeng, Gui-Bin Liu, Junfeng Dai, Yajun Yan, Bairen Zhu, Ruicong He, Lu Xie, Shijie<br />
+                    Xu, Xianhui Chen, Wang Yao, and Xiaodong Cui,<br />
+                  <em><strong>Scientific Reports.</strong></em>  3, 1608 (2013).
+                <a class="highlight_1" href="http://dx.doi.org/10.1038/srep01608" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Electrical tuning of valley magnetic moment through symmetry control in bilayer MoS2&quot;,<br />
+                    Sanfeng Wu, Jason S. Ross, Gui-Bin Liu, Grant Aivazian, Aaron Jones, Zaiyao Fei, Wenguang Zhu, Di Xiao, Wang Yao, David Cobden, and Xiaodong Xu,<br />
+                  <em><strong>Nature Phys. </strong></em> 9, 149 (2013)..
+                <a class="highlight_1" href="http://www.nature.com/nphys/journal/v9/n3/full/nphys2524.html" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Magnetoelectric effects and valley-controlled spin quantum gates in transition metal dichalcogenide bilayers&quot;,<br />
+                    KZhirui Gong*, Gui-Bin Liu*, Hongyi Yu, Di Xiao, Xiaodong Cui, Xiaodong Xu, and Wang Yao,<br />
+                  <em><strong>Phys. Lett. A.</strong></em> 375, 2041 (2011).
+                <a class="highlight_1" href="http://www.nature.com/ncomms/2013/130619/ncomms3053/full/ncomms3053.html" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>) (*These two authors contribute equally.
+                <h1></h1>
+              </li>
+              <li>
+                    &quot;Coupled spin and valley physics in monolayers of MoS<sub>2</sub> and other group-VI dichalcogenides&quot;,<br />Di Xiao, <u>Gui-Bin Liu</u>, Wanxiang Feng, Xiaodong Xu, &amp; Wang Yao,<br /><strong><em>Phys. Rev. Lett.</em></strong> 108, 196802 (2012).
+                <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevLett.108.196802" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                    &quot;Spin glass transition in canonical AuFe alloys: A numerical study&quot;,<br />Kai-Cheng Zhang, Yong-Feng Li, <u>Gui-Bin Liu</u>, &amp; Yan Zhu,<br /><em><strong>Phys. Lett. A</strong></em> 376, 1898 (2012).
+                <a class="highlight_1" href="http://dx.doi.org/10.1016/j.physleta.2012.04.042" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Chiral-glass transition in a diluted dipolar-interaction Heisenberg system&quot;,<br />
+                    Kai-Cheng Zhang, <u>Gui-Bin Liu</u>, &amp; Yan Zhu,<br />
+                    <em><strong>Phys. Lett. A</strong></em> 375, 2041 (2011).
+                <a class="highlight_1" href="http://dx.doi.org/10.1016/j.physleta.2011.04.005" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                    &quot;Dynamical Monte Carlo investigation of spin reversal and nonequilibrium magnetization of single-molecule magnets&quot;,<br />
+                    <u>Gui-Bin Liu</u> and Bang-Gui Liu,<br />
+                  <strong><em>                            Phys. Rev. B</em></strong> 82, 134410 (2010).
+                <a class="highlight_1" href="http://dx.doi.org/10.1103/PhysRevB.82.134410" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                     &quot;Nonequilibrium ferromagnetism of interacting Single-Molecular Magnets&quot;,<br />
+                    <u>Gui-Bin Liu</u> and Bang-Gui Liu,<br />
+                    <em><strong>Appl. Phys. Lett.</strong></em> 95, 183110 (2009).
+                <a class="highlight_1" href="http://link.aip.org/link/doi/10.1063/1.3259784" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                    &quot;A Green’s function model for ferromagnetism and spin excitations of (Ga,Mn)As diluted magnetic semiconductors&quot;,<br />
+                    <u>Gui-Bin Liu</u> and Bang-Gui Liu,<br />
+                    <em><strong>Chin. Phys. B</strong></em> 18, 5047 (2009).
+                <a class="highlight_1" href="http://dx.doi.org/10.1088/1674-1056/18/11/073" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                    &quot;Fe-Vacancy-Induced Ferromagnetism in Tetragonal FeSe Thin Films&quot;,<br />
+                    Yong-Feng Li, <u>Gui-Bin Liu</u>, Li-Jie Shi and Bang-Gui Li,<br />
+                    <em><strong>Chin. Phys. Lett</strong></em> 26, 127505 (2009).
+                <a class="highlight_1" href="http://iopscience.iop.org/0256-307X/26/12/127505" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                    &quot;Temperature-dependent striped antiferromagnetism of LaFeAsO in a Green’s function approach&quot;,<br />
+                    <u>Gui-Bin Liu</u> and Bang-Gui Liu,<br />
+                    J<em><strong>. Phys.: Condens. Matter</strong></em> 21, 195701 (2009).
+                <a class="highlight_1" href="http://www.iop.org/EJ/abstract/0953-8984/21/19/195701" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+              <li>
+                    &quot;Domain structures of ultrathin magnetic nanobelts&quot;,<br />
+                    <u>Gui-Bin Liu</u> and Bang-Gui Liu,<br />
+                    <strong><em>Phys. Lett. A</em></strong> 372, 3857 (2008).
+                <a class="highlight_1" href="http://dx.doi.org/10.1016/j.physleta.2008.02.083" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+                <h1></h1>
+              </li>
+            </ul>
+          </h4>
+      </div>
+    </div>
+
+    </div>
+  <!-- gbliu end -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Download CV</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row" style="height: 50px;"></div>
+<!-- 1 gbliu end -->
+<!-- 2 chengchengliu start -->
+
+            <div class="modal fade" id="ccliu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Chengcheng Liu</h4>
+                  </div>
+                  <div class="modal-body">
+
+  <!-- chengchengliu content start -->
+  <div class="container ">
+
+  <div class="row">        <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>刘铖铖</b> <small>教授</small></h1>
+    </div>
+    <div class="col-md-9 lead text">
+      邮箱： ccliu@bit.edu.cn</br>
+      办公地点： 中心教学楼</br>
+    </div>
+  </div>
+
+  <div class="row">        <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h2 class="cover-heading text"><b> 教育经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>身份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2003.7 ~ 2007.6</td>
+          <td>学士</td>
+          <td>西安电子科技大学技术物理学院</td>
+        </tr>
+        <tr class="text">
+          <td>2007.7 ~ 2010.6</td>
+          <td>硕士</td>
+          <td>西安电子科技大学技术物理学院</td>
+        </tr>
+        <tr class="text">
+          <td>2010.7 ~ 2013</td>
+          <td>博士</td>
+          <td>中国科学院物理研究所</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">        <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h2 class="cover-heading text"><b> 工作经历</b></h2>
+    </div>
+    <div class="col-md-9">
+        <table class="table table-hover">
+          <tr class="text" style="background-color:#cfd8dc">
+            <th>年份</th>
+            <th>身份</th>
+            <th>单位</th>
+          </tr>
+          <tr class="text">
+            <td>2013 .8 ~ 2016.7</td>
+            <td>讲师</td>
+            <td>北京理工大学物理学院</td>
+          </tr>
+          <tr class="text">
+            <td>2015.1 ~ 2016.1</td>
+            <td>访问学者</td>
+            <td>德克萨斯大学达拉斯分校</td>
+          </tr>
+          <tr class="text">
+            <td>2016.7 ~ </td>
+            <td>副教授</td>
+            <td>北京理工大学物理学院</td>
+          </tr>
+        </table>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 研究方向 -->
+    <div class="col-md-9">
+      <h2 class="cover-heading text"><b> 研究方向</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="lead">
+        <b>a). </b>Graphene, Silicene, Germanene, Stanene and other novel two-dimensional layered materials.
+      </p>
+      <p class="lead">
+        <b>b). </b>Topological phases, such as topological insulators and topological superconductors, topological Dirac/Weyl semimetal etc.
+      </p>
+      <p class="lead">
+        <b>c). </b>Transport in low dimensional and mesoscopic systems
+      </p>
+    </div>
+  </div>
+
+  <div class="row">        <!-- 发表论文 -->
+    <div class="col-md-9">
+      <h2 class="cover-heading text"><b> 发表论文</b></h2>
+    </div>
+    <div class="col-md-9">
+        <h4 class="publication">
+          <ul class="list-unstyled">
+            <li>
+              "First-principles investigations on the Berry phase effect in spin-orbit coupling materials",<br />
+              Wanxiang Feng, Cheng-Cheng Liu, Gui-Bin Liu, Jin-Jian Zhou & Yugui Yao<br />
+              <strong><em>Computational Materials Science.</em></strong> Pages 428–447 (2016). <a class="highlight_1" href="http://www.sciencedirect.com/science/article/pii/S0927025615005893" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+              "Antiferromagnetic and topological states in silicene:A mean field study",<br />
+              Feng Liu, Chengcheng Liu & Yugui Yao<br /><strong><em>Chinese Physics B.</em></strong> 24(8) (2015). <a class="highlight_1" href="http://cpb.iphy.ac.cn/EN/abstract/abstract65208.shtml" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+              "First-principles investigations on the Berry phase effect in spin-orbit coupling materials",<br />
+              Wanxiang Feng, Cheng-Cheng Liu, Gui-Bin Liu, Jin-Jian Zhou & Yugui Yao<br />
+              <strong><em>Computational Materials Science.</em></strong> Pages 428–447 (2016). <a class="highlight_1" href="http://www.sciencedirect.com/science/article/pii/S0927025615005893" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+              "Time-reversal-invariant topological superconductivity in n-doped BiH",<br />
+              Fan Yang, Cheng-Cheng Liu, Yu-Zhong Zhang, Yugui Yao & Dung-Hai Lee<br /><strong><em>Phys. Rev. B.</em></strong> 91, 134514 (2015). <a class="highlight_1" href="http://journals.aps.org/prb/abstract/10.1103/PhysRevB.91.134514" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+              “Weak  Topological Insulators and Composite Weyl Semimetals: β-Bi4X4 (X=Br, I)”,<br />
+              Cheng-Cheng Liu, Jin-Jian Zhou, Yugui Yao, and Fan Zhang,<br />
+              <em><strong>arXiv</strong></em>:  1509.07183v1, 2015.. <a class="highlight_1" href="http://arxiv.org/abs/1509.07183" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                “Valley-polarized  quantum anomalous Hall phases and tunable topological phase transitions in  half-hydrogenated Bi honeycomb monolayers”,<br />
+                Cheng-Cheng Liu, Jin-Jian Zhou, and Yugui Yao<br />
+                <strong><em>Phys. Rev. Lett.</em></strong> 91, 165430 (2014)<a class="highlight_1" href="http://journals.aps.org/prb/abstract/10.1103/PhysRevB.91.165430" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                   “Low-Energy  Effective Hamiltonian for Giant-Gap Quantum Spin Hall Insulators in honeycomb  X-Hydride/Halide (X=N-Bi) Monolayers”,<br />
+                Cheng-Cheng Liu, Shan Guan, Zhigang Song, Shengyuan A. Yang, Jinbo Yang, and Yugui Yao,<br />
+                <strong><em>Phys. Rev. B.</em></strong> 90,  085431 (2014). <a class="highlight_1" href="http://journals.aps.org/prb/abstract/10.1103/PhysRevB.90.085431" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                   “Large-Gap Quantum Spin Hall Insulator in Single Layer Bismuth Monobromide Bi4Br4”,<br />
+                  Jin-Jian  Zhou, Wanxiang Feng, <strong><em>Cheng-Cheng Liu</em></strong>, Shan Guan, Yugui Yao<br />
+                <strong><em>Nano Lett.</em></strong> 14, 4767 (2014). <a class="highlight_1" href="http://pubs.acs.org/doi/abs/10.1021/nl501907g" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                   “Time-Reversal-Invariant  Topological Superconductivity in n-type Doped BiH”,<br />
+                  Fan Yan, <strong><em>Cheng-Cheng Liu</em></strong>,  Yu-Zhong Zhang, Yugui Yao, Dung-Hai Lee<br />
+                <strong><em>Phys.  Rev. B.</em></strong> 91,  134514 (2014). <a class="highlight_1" href="http://arxiv.org/abs/1406.7316" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                   “Quantum  spin Hall insulators and quantum valley Hall insulators of BiX/SbX (X=H, F, Cl  and Br) monolayers with a record bulk band gap”,<br />
+                Zhigang Song, Cheng-Cheng Liu, Jinbo Yang, Jingzhi Han, Botao Fu, Yingchang Yang, Qian Niu, Jing Lu, and Yugui Yao, (co-first author)<br />
+                <strong><em>NPG  Asia Materials.</em></strong> 6,  e147 (2014). <a class="highlight_1" href="http://www.nature.com/am/journal/v6/n12/abs/am2014113a.html" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                   “Topological metallic states in spin-orbit coupled bilayer systems”,<br />
+                Hui Pan, Xin Li, Zhenhua Qiao, Cheng-Cheng Liu, Yugui Yao, Shengyuan A. Yang,<br />
+                <strong><em>New  Journal of Physics.</em></strong>16,  123015 (2014). <a class="highlight_1" href="http://arxiv.org/abs/1402.6502" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                   “Valley-Polarized Quantum Anomalous-Hall Effects in Silicene”,<br />
+                Hui  Pan, Zhenshan Li, <strong><em>Cheng-Cheng Liu</em></strong>, Guobao Zhu, Zhenhua Qiao, Yugui Yao,<br />
+                <strong><em>Phys. Rev. Lett.</em></strong>112,  106802 (2014) <a class="highlight_1" href="http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.106802" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                   “Epitaxial growth of single-domain graphene on hexagonal boron nitride”,<br />
+                Wei Yang, Guorui Chen, Zhiwen Shi, Cheng-Cheng Liu, Lianchang Zhang, Guibai Xie, Meng Cheng, Duoming Wang, Rong Yang, Dongxia Shi, Kenji Watanabe, Takashi Taniguchi, Yugui Yao, Yuanbo Zhang, and Guangyu Zhang,<br />
+                <strong><em>Nature  Materials.</em></strong> 12,  792 (2013). <a class="highlight_1" href="http://www.nature.com/nmat/journal/v12/n9/abs/nmat3695.html" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                  “d+id' Chiral Superconductivity in Bilayer Silicene”,<br />Feng Liu, <u>Cheng-Cheng Liu</u>, Kehui Wu, Fan Yang, & Yugui Yao,<br /><em><strong><strong><em>Scientific Reports</em></strong></strong></em> (in review), <em><strong>arXiv</strong></em>: 1208.5596. <a class="highlight_1" href="http://arxiv.org/abs/1208.5596" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                   “Observation  of Dirac Cone Warping and Chirality Effects in Silicene”,<br />
+                  Baojie  Feng, Hui Li,<strong><em> Cheng-Cheng Liu</em></strong>, Ting-Na Shao, Peng Cheng,  Yugui Yao, Sheng Meng, Lan Chen, and Kehui Wu,<br />
+                <strong><em>ACS  Nano.</em></strong> 7, 9049, 2013. <a class="highlight_1" href="http://pubs.acs.org/doi/abs/10.1021/nn403661h" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                   “Electronic  Structures of Graphene Layers on Metal Foil: Effect of Point Defects”,<br />
+                LHui  Yan, <strong><em>Cheng-Cheng  Liu</em></strong>, Ke-Ke Bai, Xuejiao Wang, Mengxi Liu, Wei Yan, Lan Meng, Yanfeng  Zhang, Zhongfan Liu, Jia-Cai Nie, Yugui Yao, and Lin He,  (<strong>co-first author</strong>),<br />
+                <strong><em>Appl.  Phys. Lett</em></strong> 103,  143120 (2013).. <a class="highlight_1" href="http://arxiv.org/abs/1302.4807" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                   “Evidence for Dirac Fermions in a Honeycomb Lattice Based on Silicon”,<br />
+                Lan Chen, <u>Cheng-Cheng Liu</u>, Baojie Feng, Xiaoyue He, Peng Cheng, Zijing Ding, Sheng Meng,Yugui Yao, & Kehui Wu,<br />
+                <strong><em>Phys. Rev. Lett.</em></strong> 109, 056804 (2012). <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevLett.109.056804" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                  “Low-energy effective Hamiltonian involving spin-orbit coupling in Silicene and Two-Dimensional Germanium and Tin”,<br />
+                  <u>Cheng-Cheng Liu</u>, Hua Jiang, & Yugui Yao,<br />
+                <strong><em>Phys. Rev. </em></strong><strong><em>B</em></strong> 84, 195430 (2011). <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevB.84.195430" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                  "Quantum Spin Hall Effect in Silicene and Two-Dimensional Germanium",<br />
+                  <u>Cheng-Cheng Liu</u>, Wanxiang Feng, & Yugui Yao,<br />
+                <strong><em>Phys. Rev. Lett.</em></strong> 107, 076802 (2011). <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevLett.107.076802" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+                "First-principles  study of the thermal transport property of Y3Al5O12",<br />
+                <u>Cheng-Cheng Liu</u>, Quan-Xi Cao,<br />
+                <strong><em>Acta  Phys. Sin.</em></strong>59,  2697 (2010).
+            </li>
+          </ul>
+        </h3>
+    </div>
+  </div>
+
+  </div>
+  <!-- chengchengliu content end -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="row" style="height: 50px;"></div>
+<!-- 2 chengchengliu end -->
+<!-- 3 Wei Guo start -->
+
+            <div class="modal fade" id="wguo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Wei Guo</h4>
+                  </div>
+                  <div class="modal-body">
+  <!-- Wei Guo content start -->
+  <div class="container ">
+
+  <div class="row">        <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>郭伟</b> <small>副教授</small></h1>
+    </div>
+    <div class="col-md-9 lead text">
+      邮箱： weiguo7@bit.edu.cn</br>
+      办公地点： 中心教学楼</br>
+    </div>
+  </div>
+
+  <div class="row">        <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 教育经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>身份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>1998.9 ~ 2002.7</td>
+          <td>学士</td>
+          <td>中国科学技术大学，物理学</td>
+        </tr>
+        <tr class="text">
+          <td>2002.9 ~ 2007.8</td>
+          <td>博士</td>
+          <td>中国科学院物理研究所，凝聚态物理，导师：<b>高鸿钧</b>院士</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">        <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 工作经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>身份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2007.8 ~ 2008.9</td>
+          <td>博士后</td>
+          <td>德国马普学会柏林Fritz-Haber研究所(Matthias Scheffler课题组)</td>
+        </tr>
+        <tr class="text">
+          <td>2008.10 ~ 2011.4</td>
+          <td>博士后</td>
+          <td>丹麦技术大学，物理系，原子结构设计中心(Jens K. Norskov课题组)</td>
+        </tr>
+        <tr class="text">
+          <td>2011.10 ~ 2014.10</td>
+          <td>博士后</td>
+          <td>美国特拉华大学，化工系(Dion G. Vlachos研究组)</td>
+        </tr>
+        <tr class="text">
+          <td>2014.11 ~ 2015.2</td>
+          <td>访问学者</td>
+          <td>中科院物理所纳米与器件物理实验室</td>
+        </tr>
+        <tr class="text">
+          <td>2015.3 ~ </td>
+          <td>副研究员</td>
+          <td>北京理工大学物理学院</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 研究方向 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 研究方向</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="lead">
+	    1） 第一性原理材料计算：动力学模型以及计算方法的程序开发；多尺度体系计算；表面物理与化学过程、分子自组装吸附；表面催化和反应动力学模拟；多尺度体系计算模拟；</br>
+        2） 量子功能材料设计：金属core-shell纳米颗粒、二维材料在光催化、能源，环保技术等领域的设计和应用；含能材料设计，以及结构与性能的预估模型
+	  </p>
+    </div>
+  </div>
+
+  <div class="row">        <!-- 发表论文 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 发表论文</b></h2>
+    </div>
+    <p class="col-md-9">
+      在
+      <b><i>Nature Chem.、Nature Commun.、Phys. Rev. Lett.、ACS Catal.</i></b>
+      等期刊上发表论文共28篇。近5年，以第一作者或通讯作者在
+      <b><i>Nature Commun.， ACS Catal.， Nanoscale</i></b>
+      等期刊上发表论文8篇。
+      在包括美国化学工程师协会年会、美国工业与应用数学学会、
+      <b><i>China Nano</i></b>等国际重要学术会议上作报告5次。
+      目前是<b><i>Catalysis Communications, Applied Physics Letters</i></b>等杂志的兼职审稿人。
+    </p>
+    <p class="col-md-9">
+      发表论文详见谷歌学术
+      https://scholar.google.com/citations?user=nNe4aLAAAAAJ&hl=en
+    </p>
+    <p class="col-md-9">
+      代表性成果如下:
+    </p>
+    <div class="col-md-9">
+        <h4 class="publication">
+          <ul class="list-unstyled">
+            <li>
+              Patched bimetallic surfaces are active catalysts for ammonia decomposition.,<br />
+              Guo, W.; Vlachos, D. G.<br />
+              <strong><em>Nature Communications</em></strong> 6, 8619 (2015).
+              <h1></h1>
+            </li>
+            <li>
+              Enhancement of charge transfer between graphene and donor-[small pi]-acceptor molecule for ultrahigh sensing performance.<br />
+              Pei, W.; Zhang, T.; Wang, Y.(*); Chen, Z.; Umar, A.; Li, H.; Guo, W.(*), <br />
+              <strong><em>Nanoscale</em></strong> 9 (42), 16273-16280 (2017).
+              <h1></h1>
+            </li>
+            <li>
+              Design principles of heteroepitaxial bimetallic catalysts,<br />
+              Guo, W.; Stamatakis, M.; Vlachos, D. G.<br />
+              <strong><em>ACS Catalysis</em></strong> 134 (24), 244509 (2013).
+              <h1></h1>
+            </li>
+            <li>
+              Effect of Correlations and Uncertainty of Electronic Structure Calculations in Model Predictions of Chemical Kinetics, <br />
+              Sutton, J. E.; Guo, W.; Katsoulakis, M. A.; Vlachos, D. G.,<br />
+              <strong><em>Nature Chemistry</em></strong> 8 (4), 331-337 (2016).
+              <h1></h1>
+            </li>
+            <li>
+              Tuning to the band gap by complex defects engineering: insights from hybrid functional calculations in CuInS2. <br />
+              Yang, P.; Shi, L.-J.; Zhang, J.-M.; Liu, G.-B.; Yang, S. A.; Guo, W(*).; Yao, Y., <br />
+              <strong><em>Journal of Physics D: Applied Physics</em></strong> 51 (2), 025105 (2018).
+              <h1></h1>
+            </li>
+            <li>
+              Multiple magnetoelectric coupling effect in BaTiO3/Sr2CoMoO6 heterostructures. <br />
+              Liu, C.; Wan, W.; Gong, S.; Zhang, H.(*); Guo, W.(*), <br />
+              <strong><em>Scientific Reports</em></strong> 7 (1), 3856 (2017).
+              <h1></h1>
+            </li>
+            <li>
+              Tailoring lanthanide doping in perovskite CaTiO3 for luminescence applications. <br />
+              Yang, P.; Tai, B.; Wu, W.; Zhang, J.-M.; Wang, F.; Guan, S.; Guo, W.(*); Lu, Y.; Yang, S. A.(*), <br />
+              <strong><em>Physical Chemistry Chemical Physics</em></strong> 19, 16189-16197 (2017).
+              <h1></h1>
+            </li>
+            <li>
+              Surface Ti3+ / Ti4+ Redox Shuttle Enhancing Photocatalytic H2 Production in Ultrathin TiO2 Nanosheets/CdSe Quantum Dots,<br />
+              Ji, Y.; Guo, W.; Chen, H.; Zhang, L.; Chen, S.; Hua, M.; Long, Y.; Chen, Z.<br />
+              <strong><em>The Journal of Physical Chemistry</em></strong> 119 (48), 27053-27059 (2015).
+              <h1></h1>
+            </li>
+            <li>
+              On Factors Controlling Activity of Submonolayer Bimetallic Catalysts: Nitrogen Desorption,<br />
+              Guo, W.; Vlachos, D. G.<br />
+              <strong><em>The Journal of chemical physics</em></strong> 140 (1), 014703. (2014).
+              <h1></h1>
+            </li>
+            <li>
+              On the structure sensitivity of direct NO decomposition over low-index transition metal facets,<br />
+              Falsig, H.; Shen, J.; Khan, T. S.; Guo, W. Jones, G.; Dahl, S.; Bligaard, T.<br />
+              <strong><em>Topics in Catalysis</em></strong> 57 (1-4), 80-88.(2014).
+              <h1></h1>
+            </li>
+            <li>
+              Effect of local metal microstructure on adsorption on bimetallic surfaces: Atomic nitrogen on Ni/Pt (111),<br />
+              Guo, W. Vlachos, D. G<br />
+              <strong><em>The Journal of Chemical Physics</em></strong> 138 (17), 174702 (2013).
+              <h1></h1>
+            </li>
+            <li>
+              On the behavior of Brønsted-Evans-Polanyi relations for transition metal oxides,<br />
+              Vojvodic, A.; Calle-Vallejo, F.; Guo, W.; Wang, S.; Toftelund, A.; Studt, F.; Martinez, J. I.; Shen, J.; Man, I. C.; Rossmeisl, J.<br />
+              <strong><em>The Journal of Chemical Physics</em></strong> 134 (24), 244509 (2011).
+              <h1></h1>
+            </li>
+            <li>
+              Transport properties of boron nanotubes investigated by ab initio calculation,<br />
+              Guo, W.; Hu, Y.; Zhang, Y.; Du, S.; Gao, H.-J.<br />
+              <strong><em>Chinese Physics B.</em></strong> 18 (6), 2502 (2009).
+              <h1></h1>
+            </li>
+            <li>
+              Electrostatic field effect on molecular structures at metal surfaces,<br />
+              Guo, W.; Du, S.; Zhang, Y.; Hofer, W.; Seidel, C.; Chi, L.; Fuchs, H.<br />
+              <strong><em>Surface Science</em></strong> 603 (17), 2815-2819 (2009).
+              <h1></h1>
+            </li>
+            <li>
+              Site-specific Kondo effect at ambient temperatures in iron-based molecules,<br />
+              Gao, L.; Ji, W.; Hu, Y.; Cheng, Z.; Deng, Z.; Liu, Q.; Jiang, N.; Lin, X.; Guo, W.; Du, S.<br />
+              <strong><em>Physical Review Letters.</em></strong>  99 (10), 106402 (2007).
+              <h1></h1>
+            </li>
+            <li>
+              Intrinsic current-voltage properties of nanowires with four-probe scanning tunneling microscopy: A conductance transition of ZnO nanowire,<br />
+              Lin, X.; He, X.; Yang, T.; Guo, W.; Shi, D.; Gao, H.-J.; Ma, D.; Lee, S.; Liu, F.; Xie, X.<br />
+              <strong><em>Applied Physics Letters.</em></strong>  89 (4), 043103 (2006).
+              <h1></h1>
+            </li>
+          </ul>
+        </h3>
+    </div>
+  </div>
+
+  </div>
+  <!-- Wei Guo content end -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="row" style="height: 50px;"></div>
+<!-- 3 Wei Guo end -->
+<!-- 4 Junfeng Han start -->
+
+            <div class="modal fade" id="jfhan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Junfeng Han</h4>
+                  </div>
+                  <div class="modal-body">
+
+  <!-- Junfeng Han content start -->
+  <div class="container ">
+
+  <div class="row">        <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>韩俊峰</b> <small>副教授</small></h1>
+    </div>
+    <div class="col-md-9 lead text">
+      邮箱： pkuhjf@bit.edu.cn</br>
+      办公地点： 良乡校区物理实验楼112</br>
+    </div>
+  </div>
+
+  <div class="row">        <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 教育经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>身份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2002 ~ 2006</td>
+          <td>学士</td>
+          <td>北京大学物理学院，数学双学位</td>
+        </tr>
+        <tr class="text">
+          <td>2006 ~ 2011</td>
+          <td>博士</td>
+          <td>北京大学物理学院</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">        <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 工作经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>身份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2012 ~ 2014</td>
+          <td>博士后</td>
+          <td>法国科学院材料研究所</td>
+        </tr>
+        <tr class="text">
+          <td>2014 ~ </td>
+          <td>讲师</td>
+          <td>北京理工大学物理学院</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 研究方向 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 研究方向</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="lead">
+        光电材料：铜铋硫、铜锑硫、铜铟镓硒、碲化镉、铜锌锡硫等。利用热蒸发和分子束外延的方法制备获得光伏材料和异质结，通过扫描电镜、原子力显微镜、拉曼光谱、X射线衍射、X射线光电子谱和透射电镜研究这些光电薄膜材料的形貌、成相、缺陷结构，通过电学测试和光量子效率测量分析太阳能电池的宏观光电性能。通过基础物理研究，发展制备高效廉价太阳能电池的方法和道路。目前实验室拥有一台真空蒸镀设备和一套分子束外延设备。
+      </p>
+      <div class="row">
+        <div class="col-md-4"><img class="img-responsive" alt="Responsive image" src="../images/people/jfhan/1.jpg"><p>铜铟镓硒电池</p></div>
+        <div class="col-md-4"><img class="img-responsive" alt="Responsive image" src="../images/people/jfhan/2.png"><p>真空镀膜系统</p></div>
+        <div class="col-md-4"><img class="img-responsive" alt="Responsive image" src="../images/people/jfhan/3.png"><p>铜铋硫薄膜</p></div>
+      </div>
+	  <p class="lead">
+		二维材料：类石墨烯材料，包括二硒化钼、二硒化钨、氮化硼等。利用化学气相沉积制备二维材料和二维异质结构，研究材料的电学输运性质和光电响应，制备高灵敏度超快光电探测器和红外探测器。目前实验室拥有三套化学气相沉积设备（如下图所示），三套单晶生长马弗炉，一套原子层沉积设备，两套光学显微镜，两套手套箱等。
+      </p>
+      <div class="row">
+        <div class="col-md-7"><img style="height:170px" src="../images/people/jfhan/4.jpg" alt="..."><p>滑轨式CVD系统</p></div>
+        <div class="col-md-5"><img style="height:170px" src="../images/people/jfhan/5.png" alt="..."><p>扫描电镜下的二硒化钼</p></div>
+      </div>
+	  <p class="lead">
+		拓扑绝缘体：铋系材料、锗烯、锡烯等。利用分子束外延得到原子级平整的拓扑材料，研究其可能的自旋霍尔效应或其它新奇的物理性质。利用扫描隧道显微镜技术分析其基础物性。目前实验室拥有一台超高真空系统（分子束外延+扫描隧道显微镜），和一套强磁场低温物性测量系统。
+	  </p>
+      <div class="row">
+        <div class="col-md-6"><img style="height:170px" src="../images/people/jfhan/6.png" alt="..."><p>扫描隧道显微镜</p></div>
+        <div class="col-md-6"><img style="height:170px" src="../images/people/jfhan/7.png" alt="..."><p>强磁场低温物性仪</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 已经取得的研究成果 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 已经取得的研究成果</b></h2>
+    </div>
+    <p>
+      韩俊峰长期从事光电材料和光伏器件方面的研究，相关领域发表SCI论文40篇，引用近300次。主要成果如下
+    </p>
+    <div class="col-md-9">
+      <p class="lead">
+        (1) 铜铟镓硒太阳能电池研究</br>
+        2007年时成功制备小型电池 (2cm×2cm, 10% efficiency) 和大面积组件(30cm × 30cm, 6% efficiency)，完成中试生产，并且将该项技术产业化；2010年又成功设计和制备管式铜铟镓硒电池 (Φ30×250mm)，与两年后投入到产业化生产阶段。采用X射线光电子谱和透射电镜技术，深入研究薄膜电池的各个界面的物理化学性质，发表论文10余篇。
+      </p>
+      <div class="row">
+        <div class="col-md-4"><img style="height:170px" src="../images/people/jfhan/8.jpg" alt="..."><p>大面积平板组件</p></div>
+        <div class="col-md-4"><img style="height:170px" src="../images/people/jfhan/9.jpg" alt="..."><p>大面积管式组件</p></div>
+        <div class="col-md-4"><img style="height:170px" src="../images/people/jfhan/10.jpg" alt="..."><p>台灯下电池发电驱动LED</p></div>
+      </div>
+	  <p class="lead">
+        (2) 碲化镉太阳能电池研究</br>
+		2009年成功制备小型电池 (2cm×2cm, 11% efficiency)，采用X射线光电子谱和同步辐射技术，深入研究薄膜电池的各个界面的化学性质和能带结构，改进电池结构，提高其光电转换效率，发表论文10余篇。2012年之后专注于研究碲化镉电池组件的退化机制，通过实验和理论分析，建立电池退化模型，其结果被法国电力公司采用，其结果涉及千万欧元的光伏项目。
+      </p>
+      <div class="row">
+        <div class="col-md-6"><img style="height:170px" src="../images/people/jfhan/11.jpg" alt="..."><p>柏林同步辐射装置测量界面光电子谱</p></div>
+        <div class="col-md-6"><img style="height:170px" src="../images/people/jfhan/12.png" alt="..."><p>自制碲化镉太阳能电池</p></div>
+      </div>
+	  <p class="lead">
+        (3)铜锌锡硫电池研究</br>
+		采用溅射硫化和电沉积等技术方案，制备高质量铜锌锡硫薄膜。研究薄膜中的缺陷密度和能级结构。发表论文5篇。
+      </p>
+      <div class="row">
+        <div class="col-md-4"><img style="height:170px" src="../images/people/jfhan/13.jpg" alt="..."><p>原子力显微镜</p></div>
+        <div class="col-md-4"><img style="height:170px" src="../images/people/jfhan/14.jpg" alt="..."><p>超高分辨透射电镜</p></div>
+        <div class="col-md-4"><img style="height:170px" src="../images/people/jfhan/15.png" alt="..."><p>透射电镜下的晶粒边界</p></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">        <!-- 发表论文 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 发表论文</b></h2>
+    </div>
+    <div class="col-md-9">
+        <h4 class="publication">
+          <ul class="list-unstyled">
+            <li>
+              HAN Jun-feng, ZHAO Kui, et al. Sol. Energy Mat. & Sol. Cell, 95 (2011) 816-820
+              <h1></h1>
+            </li>
+            <li>
+              HAN Jun-feng, LIAO Cheng, et al. Materials Research Bulletin 46 (2011) 194-198
+              <h1></h1>
+            </li>
+            <li>
+              HAN Jun-feng, LIAO Cheng, et al. Journal of Alloys and Compounds 509 (2011) 5285-5289
+              <h1></h1>
+            </li>
+            <li>
+              Junfeng Han, Chunjie Fan, et al. Applied Surface Science 256 (2010) 5803-5806
+              <h1></h1>
+            </li>
+            <li>
+              HAN Jun-feng, LIAO Cheng, et al. Thin solid films 545 (2013) 251-256
+              <h1></h1>
+            </li>
+            <li>
+              Han Jun-feng, Fu Gan-hua, et al. J Mater Sci: Mater Electron 24 (2013) 2695–2700
+              <h1></h1>
+            </li>
+            <li>
+              HAN Jun-feng, LIAO Cheng, et al. Journal of crystal growth 382 (2013) 56-60
+              <h1></h1>
+            </li>
+            <li>
+              HAN Jun-feng, LIAO Cheng, et al. J Mater Sci: Mater Electron 24 (2013) 4636-4642
+              <h1></h1>
+            </li>
+            <li>
+              Junfeng Han, Ganhua Fu, et al. Journal of Physics and Chemistry of Solids 74 (2013) 1879-1883
+              <h1></h1>
+            </li>
+            <li>
+              HAN Jun-feng, LIAO Cheng, et al. Materials Research Bulletin 49 (2014) 187-192
+              <h1></h1>
+            </li>
+            <li>
+              Jun-feng Han, Cheng Liao, et al. J Mater Sci: Mater Electron 25 (2014) 2237–2243
+              <h1></h1>
+            </li>
+            <li>
+              HAN Jun-feng, LIAO Cheng, et al. Vacuum 105 (2014) 46-51
+              <h1></h1>
+            </li>
+            <li>
+              HAN Jun-feng, LIAO Cheng, et al. J. Physics and Chemistry of Solids 75 (2014) 1279-1283
+              <h1></h1>
+            </li>
+            <li>
+              HAN Jun-feng, OUYANG Liang-qi, et al. Material Letters 136 (2014) 278-281
+              <h1></h1>
+            </li>
+            <li>
+              Jun-feng Han, Gan-hua Fu, et al. Thin Solid Films 582 (2015) 290–294
+              <h1></h1>
+            </li>
+            <li>
+              Jun-feng Han, V. Krishnakumar, et al. J. Electronic Materials 44 (2015) 3327-3333
+              <h1></h1>
+            </li>
+            <li>
+              Jun-feng Han, Liang-qi Ouyang, et al. J Mater Sci: Mater Electron 26 (2015) 4840-4847
+              <h1></h1>
+            </li>
+            <li>
+              Junfeng Han, et al. Materials Science in Semiconductor Processing, 40 (2015) 402-406
+              <h1></h1>
+            </li>
+            <li>
+              Junfeng Han, et al. Material Letters, 177 (2016) 5-8
+              <h1></h1>
+            </li>
+            <li>
+              Lin Yuan, Junfeng Han*, et al. Materials Research Bulletin 84 (2016) 314–322
+              <h1></h1>
+            </li>
+            <li>
+              Wenmei Feng, Junfeng Han*, et al. J. Electronic Materials, DOI: 10.1007/s11664-016-4873-y;
+              <h1></h1>
+            </li>
+            <li>
+              Yongzheng Zhang, Junfeng Han*, J. Electrochemical Society, 163 (13) D1-D5 (2016);
+              <h1></h1>
+            </li>
+            <li>
+              Yongzheng Zhang, Junfeng Han*, CrystEngComm, DOI: 10.1039/C6CE02041K
+              <h1></h1>
+            </li>
+            <li>
+              Lin Yuan, Junfeng Han*, et al. AIP advances, accept
+              <h1></h1>
+            </li>
+            <li>
+              V. Krishnakumar, HAN Jun-feng, et al. Thin Solid films, 519 (2011) 7138-7141
+              <h1></h1>
+            </li>
+            <li>
+              YongZheng Zhang, Cheng Liao, Kai Zong, Hao Wang, JingBing Liu, Tao Jiang, JunFeng Han, Guo-Qiang Liu, Liang Cui, WoonMing Lau, Solar Energy 94 (2013) 1–7
+              <h1></h1>
+            </li>
+            <li>
+              Hao Chen, Qinyan Ye, XuLin He, Jingjing Ding, Yongzheng Zhang, Junfeng Han, Jiang Liu*, Cheng Liao*, Jun Mei, WoonMing Lau. Green Chemistry 16 (2014) 3841-3845
+              <h1></h1>
+            </li>
+            <li>
+              Yongzheng Zhang, Qinyan Ye, Jiang Liu, Hao Chen, Xulin He, Cheng Liao*, Junfeng Han, Hao Wang, Jun Mei, WoonMing Lau, RCS advance, 4 (2014) 23666-23669
+              <h1></h1>
+            </li>
+            <li>
+              Liangqi Ouyang, Ming Zhao, Daming Zhuang, Junfeng Han, Li Guo, Xiaolong Li, Mingjie Cao, Materials Letters 137 15 (2014) 249–251
+              <h1></h1>
+            </li>
+            <li>
+              Liangqi Ouyang, Ming Zhao, Daming Zhuang, Junfeng Han, Zedong Gao, Li Guo, Xiaolong Li, Rujun Sun, Mingjie Cao, Solar Energy 118 (2015) 375-383
+              <h1></h1>
+            </li>
+            <li>
+              Han-Chun Wu, Mourad Abid, Ye-Cun Wu, Cormac Ó Coileáin, Askar Syrlybekov, Jun Feng Han, Cheng Lin Heng, Huajun Liu, Mohamed Abid, and Igor Shvets, ACS Nano 9 (7) (2015) 7207-7214
+              <h1></h1>
+            </li>
+            <li>
+              S. Guan, Y. C. Cheng, C. Liu, J. F. Han, Y. H. Lu, S. A. Yang, Y. G. Yao, APPLIED PHYSICS LETTERS 107 (2015)  231904
+              <h1></h1>
+            </li>
+          </ul>
+        </h3>
+    </div>
+  </div>
+
+  </div>
+  <!-- Junfeng Han content end -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="row" style="height: 50px;"></div>
+<!-- 4 Junfeng Han end -->
+<!-- 5 Wanxiang Feng start -->
+
+            <div class="modal fade" id="wxfeng" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Wanxiang Feng</h4>
+                  </div>
+                  <div class="modal-body">
+
+  <!-- Wanxiang Feng content start -->
+  <div class="container ">
+
+  <div class="row">       <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>冯万祥</b> <small>副教授</small></h1>
+    </div>
+    <div class="col-md-9 lead text">
+      邮箱：wxfeng@bit.edu.cn</br>
+      办公地点： 中心教学楼711</br>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 教育经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>身份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2002.7 ~ 2006.6</td>
+          <td>学士</td>
+          <td>吉林大学物理学院</td>
+        </tr>
+        <tr class="text">
+          <td>2006.7 ~ 2009.6</td>
+          <td>硕士</td>
+          <td>吉林大学超硬材料国家重点实验室</td>
+        </tr>
+        <tr class="text">
+          <td>2009.7 ~ 2012.6</td>
+          <td>博士</td>
+          <td>中国科学院物理研究所</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 工作经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>身份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2012.7 ~ 2014.7</td>
+          <td>讲师</td>
+          <td>北京理工大学物理学院</td>
+        </tr>
+        <tr class="text">
+          <td>2015.8 ~ 至今</td>
+          <td>副教授</td>
+          <td>北京理工大学物理学院</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 研究方向 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 研究方向</b></h2>
+    </div>
+    <div class="col-md-9 lead">
+      <ol>
+        <li>Search for new two/three-dimensional topological insulators with excellent physical properties, e.g., large bulk band gap and easy growth or fabrication in experiments.</li>
+        <li>Explore new topological phases in real materials, such as three-dimensional Dirac and Weyl semimetals, and study the anomalous and spin Hall effects in them.</li>
+        <li>Study novel magneto-optical phenomenon and nonlinear optical property in low-dimensional materials with strong spin-orbit coupling.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 发表论文 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 发表论文</b></h2>
+    </div>
+    <div class="col-md-9">
+        <h4 class="publication">
+          <ul class="list-unstyled">
+            <li>
+              &quot;First-principles investigations on the Berry phase effect in spin-orbit coupling materials&quot;,<br />
+              Wanxiang Feng, Cheng-Cheng Liu, Gui-Bin Liu, Jin-Jian Zhou &amp; Yugui Yao<br />
+              <strong><em>Computational Materials Science.</em></strong> Pages 428–447 (2016).
+              <a class="highlight_1" href="http://www.sciencedirect.com/science/article/pii/S0927025615005893" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+            &quot;Large magneto-optical Kerr effects in noncollinear antiferromagnets Mn<sub>3</sub>X (X = Rh, Ir, or Pt)&quot;,<br />
+              <u>Wanxiang Feng</u>, Guang-Yu Guo, Jian Zhou, Yugui Yao, &amp; Qian Niu<br />
+              <strong><em>Phys. Rev. B (in press). </em></strong> arXiv:1509.02865.
+              <a class="highlight_1" href="http://arxiv.org/abs/1509.02865" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+            &quot;First-principles investigations on the Berry phase effects in spin-orbit coupling materials&quot;,<br />
+                     <u>Wanxiang Feng</u>, Cheng-Cheng Liu, Gui-Bin Liu, Jin-Jian Zhou, &amp; Yugui Yao,<br />
+                    <strong><em>Comp. Mater. Sci. (invited review, in press).</em></strong>
+              <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevB.86.165108" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+            &quot;Topological edge states in single- and multi-layer Bi<sub>4</sub>Br<sub>4</sub>&quot;,<br />                              Jin-Jian Zhou, <u>Wanxiang Feng</u>, Gui-Bin Liu, &amp; Yugui Yao,<br />
+                    <strong><em>New J. Phys.</em></strong>  17, 015004 (2015).
+              <a class="highlight_1" href="http://dx.doi.org/10.1088/1367-2630/17/1/015004" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+            &quot;Quantum spin Hall and Z2 metallic states in an organic material&quot;,<br />                              Bao Zhao, Jiayong Zhang, <u>Wanxiang Feng,</u> Yugui Yao, &amp; Zhongqin Yang,<br />
+                    <strong><em>Phys. Rev. B (rapid comm.)</em></strong>  90, 201403 (2014).
+              <a class="highlight_1" href="dx.doi.org/10.1103/PhysRevB.90.201403" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+            &quot;Large-gap quantum spin Hall insulator in single layer bismuth monobromide Bi<sub>4</sub>Br<sub>4</sub>&quot;,<br />                              Jin-Jian Zhou, <u>Wanxiang Feng</u>, Cheng-Cheng Liu, Shan Guan, &amp; Yugui Yao,<br />
+                    <strong><em>Nano Lett..</em></strong> 14, 4767 (2014).
+              <a class="highlight_1" href="dx.doi.org/10.1021/nl501907g" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+            &quot;The elective modulations of doping and strain on the electron transport in
+              monolayer MoS<sub>2</sub>&quot;,<br />                              Yanfeng Ge, Wenhui Wan, <u>Wanxiang Feng</u>, Di Xiao, &amp; Yugui Yao,<br />
+                    <strong><em>Phys. Rev. B.</em></strong> 90, 035414 (2014).
+              <a class="highlight_1" href="dx.doi.org/10.1103/PhysRevB.90.035414" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+            &quot;Core-hole effect on topological band order in cubic semiconductors: A first-principles study&quot;,<br />
+                     <u>Wanxiang Feng</u>, Jun Ding, Botao Fu, Ying Zhang, &amp; Yugui Yao,<br />
+                    <strong><em>Europhys. Lett.</em></strong> 106, 27008 (2014).
+              <a class="highlight_1" href="dx.doi.org/10.1209/0295-5075/106/27008" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+            &quot;Engineering topological surface states and giant Rashba spin splitting in BiTeI/Bi<sub>2</sub>Te<sub>3</sub>heterostructures&quot;,<br />
+              Jin-Jian Zhou,<u>Wanxiang Feng</u>,  Ying Zhang, Shengyuan A. Yang, &amp; Yugui Yao<br />
+                    <strong><em>Sci. Rep. </em></strong> 4, 3841 (2014).
+              <a class="highlight_1" href="dx.doi.org/10.1038/srep03841" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+            &quot;Defect physics and intrinsic p-type conductivity in topological insulator AuTlS<sub>2</sub>&quot;,<br />                              Jian-Min Zhang, <u>Wanxiang Feng</u>,, Pei Yang, Lijie Shi, &amp; Ying Zhang,<br />
+                    <strong><em>Mod. Phys. Lett. B.</em></strong>  28, 1450008 (2014).
+              <a class="highlight_1" href="dx.doi.org/10.1142/S0217984914500080" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+            &quot;Three dimensional topological insulators: A review on host materials&quot;,<br />
+                     <u>Wanxiang Feng</u>, Yugui Yao,<br />
+                    <strong><em>Sci. China-Phys. Mech. Astron. (invited review) .</em></strong> 55, 2199 (2012).
+              <a class="highlight_1" href="dx.doi.org/10.1007/s11433-012-4929-9" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+            &quot;Intrinsic spin Hall effect in monolayers of group-VI dichalcogenides: A first-principles study&quot;,<br />
+                     <u>Wanxiang Feng</u>, Yugui Yao, Wenguang Zhu, Jinjian Zhou, Wang Yao, &amp; Di Xiao,<br />
+                    <strong><em>Phys. Rev. B.</em></strong> 86, 165108 (2012).
+              <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevB.86.165108" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+              &quot;Coupled spin and valley physics in monolayers of MoS<sub>2</sub> and other group-VI dichalcogenides&quot;,<br />
+              Di Xiao, Gui-Bin Liu, <u>Wanxiang Feng</u>, Xiaodong Xu, & Wang Yao,<br />      <strong><em>Phys. Rev. Lett.</em></strong> 108, 196802 (2012).
+              <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevLett.108.196802" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+               &quot;First-principles calculation of topological invariants Z<sub>2</sub> within the FP-LAPW formalism&quot;,<br />
+              <u>Wanxiang Feng</u>, Jun Wen, Jinjian Zhou, Di Xiao, & Yugui Yao,<br /><strong><em>Comp. Phys. Comm.</em></strong> 183, 1849 (2012).
+              <a class="highlight_1" href="http://dx.doi.org/10.1016/j.cpc.2012.04.001" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+              &quot;Strain tuning of topological band order in cubic semiconductors&quot;,<br />
+              <u>Wanxiang Feng</u>, Wenguang Zhu, Hanno H. Weitering, G. Malcolm Stocks, Yugui Yao, &amp; Di Xiao,<br /><strong><em>Phys. Rev. B</em></strong> 85, 195114 (2012).
+              <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevB.85.195114" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+              &quot;Quantum spin Hall effect in silicene and two-dimensional germanium&quot;,<br />
+              Cheng-Cheng Liu, <u>Wanxiang Feng</u>, &amp; Yugui Yao,<strong><em><br />
+              Phys. Rev. Lett.</em></strong> 107, 076802 (2011).
+              <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevLett.107.076802" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+              &quot;Topological aspect and quantum magnetoresistance of &beta;-Ag<sub>2</sub>Te&quot;,<br />
+              Wei Zhang, Rui Yu, <u>Wanxiang Feng</u>, Yugui Yao, Hongming Weng, Xi Dai, &amp; Zhong Fang,<br /><strong><em>Phys. Rev. Lett.</em></strong> 106, 156808 (2011).
+              <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevLett.106.156808" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+               &quot;Engineering quantum anomalous/valley Hall states in graphene via metal-atom<br />
+              adsorption: An ab-initio study&quot;,<br />
+              Jun Ding, Zhenhua Qiao, <u>Wanxiang Feng</u>, Yugui Yao, &amp; Qian Niu,<br />
+            <strong><em>Phys. Rev. B</em></strong> 84,195444 (2011).
+              <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevB.84.195444" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+               &quot;Three-dimensional topological insulators in I-III-VI<sub>2</sub> and II-IV-V<sub>2</sub> chalcopyrite semiconductors&quot;,<u><br />
+              Wanxiang Feng</u>, Di Xiao, Jun Ding, &amp; Yugui Yao,<br /><strong><em>Phys. Rev. Lett.</em></strong> 106, 016402 (2011).
+              <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevLett.106.016402" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+              &quot;Half-Heusler topological insulators: A first-principles study with the Tran-Blaha modified Becke-Johnson density functional&quot;,<u><br />
+              Wanxiang Feng</u>, Di Xiao, Ying Zhang, &amp; Yugui Yao,<br />
+              <strong><em>Phys. Rev. B</em></strong> 82, 235121 (2010).
+              <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevB.82.235121" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+               &quot;Half-Heusler compounds as a new class of three-dimensional topological insulators&quot;,<br />
+              Di Xiao, Yugui Yao, <u>Wanxiang Feng</u>, Jun Wen, Wenguang Zhu, Xing-Qiu Chen, G. Malcolm Stocks, &amp; Zhenyu Zhang,<br />
+              <strong><em>Phys. Rev. Lett.</em></strong> 105, 096404 (2010).
+              <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevLett.105.096404" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+               &quot;Quantum anomalous Hall effect in graphene from Rashba and exchange effects&quot;,<br />
+              Zhenhua Qiao, Shengyuan A. Yang, <u>Wanxiang Feng</u>, Wang-Kong Tse, Jun Ding, Yugui Yao, Jian Wang, &amp; Qian Niu,<br />
+              <strong><em>Phys. Rev. B (rapid comm.)</em></strong> 82, 161414 (2010).
+              <a class="highlight_1" href="http://link.aps.org/doi/10.1103/PhysRevB.82.161414" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+              &quot;Order-disorder phase transition and dissociation of hydrogen sulfide under high pressure: Ab initio molecular dynamics study&quot;,<br />
+              Liancheng Wang, Fubo Tian, <u>Wanxiang Feng</u>, Changbo Chen, Zhi He, Yanming Ma, Tian Cui, Bingbing Liu, &amp; Guangtian Zou,<strong><em><br />
+              J. Chem. Phys.</em></strong> 132, 164506 (2010).
+              <a class="highlight_1" href="http://dx.doi.org/10.1063/1.3392673" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+            <li>
+              &quot;Structure investigation of solid methane at high pressure&quot;,<br />
+              Zhao Juan, <u>Feng Wan-Xiang</u>, Liu Zhi-Ming, Ma Yan-Ming, He Zhi, Cui Tian. &amp; Zou Guang-Tian,<br />
+              <strong><em>Chin. Phys. Lett.</em></strong> <em>27</em>, 066101 (2010).
+              <a class="highlight_1" href="http://cpl.iphy.ac.cn/EN/10.1088/0256-307X/27/6/066101" target="_blank"><span class="glyphicon glyphicon-link"></span> Link</a>.
+              <h1></h1>
+            </li>
+          </ul>
+        </h3>
+    </div>
+  </div>
+
+  </div>
+  <!-- Wanxiang Feng content end -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="row" style="height: 50px;"></div>
+<!-- 5 Wanxiang Feng end -->
+<!-- 6 Wende Xiao start -->
+
+            <div class="modal fade" id="wdxiao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Wende Xiao</h4>
+                  </div>
+                  <div class="modal-body">
+
+  <!-- Wende Xiao content start -->
+  <div class="container ">
+
+  <div class="row">       <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>肖文德</b> <small>副教授</small></h1>
+    </div>
+    <div class="col-md-9 lead text">
+      邮箱： wdxiao@bit.edu.cn</br>
+      办公室： 中关村校区中心教学楼703，良乡校区物理实验楼114</br>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 教育经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>身份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>1997</td>
+          <td>学士</td>
+          <td>华中师范大学物理系数理实验班</td>
+        </tr>
+        <tr class="text">
+          <td>2000</td>
+          <td>硕士</td>
+          <td>华中师范大学物理系</td>
+        </tr>
+        <tr class="text">
+          <td>2003</td>
+          <td>博士</td>
+          <td>中国科学院物理研究所</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 工作经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>身份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2002.4-2003.3</td>
+          <td>访问学者</td>
+          <td>德国Fraunhofer Institute for Surface Engineering and Thin Films (IST)</td>
+        </tr>
+        <tr class="text">
+          <td>2004.3-2005.2 </td>
+          <td>博士后</td>
+          <td>新加坡国立大学物理系</td>
+        </tr>
+        <tr class="text">
+          <td>2005.3-2007.12 </td>
+          <td>博士后</td>
+          <td>Swiss Federal Laboratories for Materials Science and Technology</td>
+        </tr>
+        <tr class="text">
+          <td>2008.1-2016.10 </td>
+          <td>副研究员</td>
+          <td>中国科学院物理研究所</td>
+        </tr>
+        <tr class="text">
+          <td>2016.10 至今 </td>
+          <td>预聘副教授（研究员)</td>
+          <td>北京理工大学物理学院</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 研究方向 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 研究方向</b></h2>
+    </div>
+    <div class="col-md-9">
+        <p class="lead">
+          研究方向为凝聚态实验物理，具体有：
+        </p>
+        <p class="lead">
+          <mark><b>a). </b></mark>高质量二维材料的制备： 利用分子束外延技术制备高质量新型二维电子材料和拓扑材料。
+		<p class="lead">
+		  <mark><b>b). </b></mark>二维材料量子物性的测量： 利用低温扫描隧道显微镜原位研究材料的结构和量子物性。
+        </p>
+		<p class="lead">
+		  <mark><b>c). </b></mark>二维材料的物性调控：通过引入外来原子或有机分子修饰，对材料的量子物性进行调控。
+		</p>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 发表论文 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 发表论文</b></h2>
+    </div>
+    <div class="col-md-9">
+        <h4 class="publication">
+          <ul class="list-unstyled">
+            <li>
+              "Microscopic origin of chiral shape induction in achiral crystals"</br>
+              Wende Xiao, Karl-Heinz Ernst, Krisztian Palotas, Yuyang Zhang, Emilie Bruyer, Lingqing Peng, Thomas Greber, Werner A. Hofer, Lawrence T. Scott, & Roman Fasel</br>
+              <strong><em>Nature Chem.</em></strong> 8, 326 (2016).
+              <h1></h1>
+            </li>
+            <li>
+              "C60/Corannulene on Cu(110): a surface-supported buckybow-buckyball host-guest syste"</br>
+              Wende Xiao, Daniele Passerone, Pascal Ruffieux, Kamel Aït–Mansour, Oliver Gröning, Erio Tosatti, Jay S. Siegel, and Roman Fasel</br>
+              <strong><em>J. Am. Chem. Soc.</em></strong> 130, 4767 (2008).
+              <h1></h1>
+            </li>
+            <li>
+              "Self-assembly of chiral molecular honeycomb networks on Au(111)"</br>
+              Wende Xiao, Xinliang Feng, Pascal Ruffieux, Oliver Groening, Klaus Müllen, and Roman Fasel</br>
+              <strong><em>J. Am. Chem. Soc.</em></strong> 130, 8910 (2008).
+              <h1></h1>
+            </li>
+            <li>
+              "Tuning the Proximity Effect through Interface Engineering in a Pb/Graphene/Pt Trilayer System"</br>
+              Xiangmin Fei, Wende Xiao,* Kai Yang, Liwei Liu, Jinbo Pan, Hui Chen, Chendong Zhang, Chih-Kang Shih, Shixuan Du and Hongjun Gao</br>
+              <strong><em>ACS Nano</em></strong> 10, 4520 (2016).
+              <h1></h1>
+            </li>
+            <li>
+              "Impact of heterocirculene molecular symmetry upon two-dimensional crystallization"</br>
+              W.D. Xiao,* Y.Y. Zhang, L. Tao, K. Aït-Mansour, K.Y. Chernichenko, V.G. Nenajdenko, P. Ruffieux, S.X. Du, H.-J. Gao, and R. Fasel</br>
+              <strong><em>Sci. Rep.</em></strong> 4, 5415 (2014).
+              <h1></h1>
+            </li>
+            <li>
+              "Revealing the Atomic Site-Dependent g Factor within a Single Magnetic Molecule via the Extended Kondo Effect"</br>
+              Liwei Liu, Kai Yang, Yuhang Jiang, Boqun Song, Wende Xiao, Shiru Song, Shixuan Du, Min Ouyang, Werner A. Hofer, Antonio H. Castro Neto, and Hong-Jun Gao</br>
+              <strong><em>Phys. Rev. Lett.</em></strong> 114, 126601 (2015) (Editor’s suggestion & Cover story)
+              <h1></h1>
+            </li>
+            <li>
+              "Room-temperature, low-barrier boron doping of graphene"</br>
+              Lida Pan, Yande Que, Hui Chen, Dongfei Wang, Jun Li, Chengmin Shen, Wende Xiao, Shixuan Du, Hongjun Gao, and Sokrates T. Pantelides</br>
+              <strong><em>Nano Lett.</em></strong> 15, 6464 (2015).
+              <h1></h1>
+            </li>
+            <li>
+              "Reversible Achiral-to-Chiral Switching of Single Mn-Phthalocyanine Molecules by Thermal Hydrogenation and Inelastic Electron Tunneling Dehydrogenation" </br>
+              Kai Yang, Liwei Liu, Lizhi Zhang, Wende Xiao, Xiangmin Fei, Hui Chen, Shixuan Du, Karl-Heinz Ernst, Hong-Jun Gao</br>
+              <strong><em>ACS Nano</em></strong> 8, 2246 (2014)
+              <h1></h1>
+            </li>
+            <li>
+              "Tunability of Supramolecular Kagome Lattices of Magnetic Phthalocyanines Using Graphene- Based Moire′ Patterns as Templates"</br>
+              J. H. Mao, H. G. Zhang, Y. H. Jiang, Y. Pan, M. Gao, W. D. Xiao, H. -J. Gao</br>
+              <strong><em>J. Am. Chem. Soc.</em></strong> 131, 14136 (2009)
+              <h1></h1>
+            </li>
+            <li>
+              "Self-assembly of periodic bicomponent wires and ribbons"</br>
+              Marta E. Canas-Ventura, Wende Xiao, Daniel Wasserfallen, Klaus Müllen, Harald Brune, Johannes V. Barth, and Roman Fasel</br>
+              <strong><em>Angew. Chem. Int. Ed.</em></strong> 46, 1814 (2007)
+              <h1></h1>
+            </li>
+          </ul>
+        </h3>
+    </div>
+  </div>
+
+  </div>
+  <!-- Wende Xiao content end -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="row" style="height: 50px;"></div>
+<!-- 6 Wende Xiao end -->
+
+<!-- 7 Jie Ma start -->
+
+            <div class="modal fade" id="jma" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Jie Ma</h4>
+                  </div>
+                  <div class="modal-body">
+
+  <!-- Jie Ma content start -->
+  <div class="container ">
+
+  <div class="row">       <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>马杰</b> <small>教授</small></h1>
+    </div>
+    <div class="col-md-9 lead text">
+      邮箱: majie@bit.edu.cn </br>
+      办公地点: 中关村校区中心教学楼636A
+    </div>
+  </div>
+
+  <div class="row">       <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 教育经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2000~2004 </td>
+          <td>中国科学技术大学, 学士</td>
+        </tr>
+        <tr class="text">
+          <td>2004~2010</td>
+          <td>中国科学院物理研究所, 博士</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 工作经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2010~2013</td>
+          <td>美国再生能源国家实验室, 博士后</td>
+        </tr>
+        <tr class="text">
+          <td>2013~2015</td>
+          <td>美国劳伦斯伯克利国家实验室, 博士后</td>
+        </tr>
+        <tr class="text">
+          <td>2016~2017</td>
+          <td>新加坡科技研究局高性能计算所, 科学家II</td>
+        </tr>
+        <tr class="text">
+          <td>2017~ </td>
+          <td>北京理工大学, 教授</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 研究方向 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 研究方向</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="lead">
+        研究方向为计算物理和凝聚态物理理论，主要从事半导体以及新能源材料领域的研究，包括院子结构、电子结构、缺陷与掺杂、激发态、以及动力学过程等物理问题的理论和计算模拟，研究贡献集中在光伏材料领域。光伏是21世纪最重要的新能源技术之一，随着全球能源危机和环境污染等问题的日益严重，光伏成为重要的研究课题。通过选取典型的光伏系统，围绕着光伏中的核心物理问题，取得了系统性的研究成果，包括：</br>
+        
+        1）揭示了等离激元光吸收以及产生热载流子的机制，并对优化等离激元应用提出理论指导；</br>
+        
+        2）提出了延长CdTe中载流子寿命的有效方案，并得到实验验证，提高了光伏性能；</br>
+        
+        3）解决了“为什么Cu在半导体中扩散快”这一困扰科研界长达50年的物理问题；</br>
+        
+        4）发现了杂化钙钛矿中特有的电子局域化以及迁移的物理机制。</br>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 代表性学术成果 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 代表性学术成果</b></h2>
+    </div>
+    <p class="col-md-9 lead">
+      近年来，相关研究成果已发表在Nat. Commun.、Phys. Rev. Lett.、Nano Lett.、Adv. Mater.等国际期刊，论文总引用1000余次。
+    </p>
+    <div class="col-md-9">
+        <h4 class="publication">
+
+        </h3>
+    </div>
+  </div>
+
+  </div>
+  <!-- Jie Ma content end -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="row" style="height: 50px;"></div>
+<!-- 7 Jie Ma end -->
+
+<!-- 8 Yuancang Li start -->
+
+            <div class="modal fade" id="ycli" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Yuancang Li</h4>
+                  </div>
+                  <div class="modal-body">
+
+  <!-- Yuancang Li content start -->
+  <div class="container ">
+
+  <div class="row">       <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>李元昌</b> <small>副教授</small></h1>
+    </div>
+    <div class="col-md-9 lead text">
+      邮箱： yuancli@bit.edu.cn</br>
+      中关村校区： 北京理工大学求是楼226</br>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h3 class="title"><b> 教育背景</b></h3>
+    </div>
+    <div class="col-md-9">
+      2007.9 ~ 2012.7   清华大学物理系     理学博士      导师：段文晖 院士 </br>
+      （2010.4 ~ 2010.7  韩国国立首尔大学Jisoon Ihm教授课题组访问学生） </br>
+      2003.9 ~ 2007.7   清华大学物理系     理学学士 </br>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h3 class="title"><b> 工作经历</b></h3>
+    </div>
+    <div class="col-md-9">
+      2017.4 ~ 迄今    北京理工大学 </br>
+      2015.3 ~ 2017.4   国家纳米科学中心 副研究员 </br>
+      2012.7 ~ 2015.2   国家纳米科学中心 助理研究员 </br>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 研究方向 -->
+    <div class="col-md-9">
+      <h3 class="title"><b> 研究方向</b></h3>
+    </div>
+    <div class="col-md-9">
+      <p class="">
+        半导体的激子效应和自发凝聚</br>
+        过渡金属氧化物电子结构计算方法</br>
+        低维功能性材料的结构设计</br>
+      </p>
+    </div>
+  </div>
+
+  <div class="row text">
+    <div class="col-md-9">
+      <h3 class="title"><b> 主持基金</b></h3>
+    </div>
+    <div class="col-md-9">
+      面上项目：第一性原理BSE方法计算固体材料激子能谱的准确度评估</br>
+      项目来源：国家自然科学基金委</br>
+      项目起止时间：2021.1.1-2023.12.31</br>
+      项目资助额度：60万元</br></br>
+
+      面上项目：以石墨烯、二硫化钼为代表的二维材料在清洁能源应用中若干关键物理问题  的理论研究</br>
+      项目来源：国家自然科学基金委</br>
+      项目起止时间：2017.1.1-2020.12.31</br>
+      项目资助额度：59万元</br></br>
+
+      青年科学基金项目：基于石墨烯的d电子属性Dirac系统中新奇量子现象的理论研究</br>
+      项目来源：国家自然科学基金委</br>
+      项目起止时间：2014.1.1-2016.12.31</br>
+      项目资助额度：25万元</br></br>
+
+      中国科学院青年创新促进会会员（编号：2017052）</br>
+      项目来源：中国科学院</br>
+      项目起止时间：2017.1.1-2020.12.31</br>
+      项目资助额度：80万元</br></br>
+
+      低维量子物理国家重点实验室开放基金：二维材料在新型电池应用中的物理原理</br>
+      项目来源：清华大学低维量子物理国家重点实验室</br>
+      项目开始时间：2016.10.1-2018.9.30</br>
+      项目资助额度：10万元</br></br>
+
+      低维量子物理国家重点实验室开放基金：半金属性Dirac材料的理论设计和性质研究</br>
+      项目来源：清华大学低维量子物理国家重点实验室</br>
+      项目开始时间：2014.10.1-2016.9.30</br>
+      项目资助额度：8万元</br></br>
+
+    </div>
+  </div>
+
+    <div class="row text">        <!-- 授权专利 -->
+      <div class="col-md-9">
+        <h3 class="title"><b> 授权专利</b></h3>
+      </div>
+      <div class="col-md-9">
+        美国授权号：US patent 8796664
+        Graphene-based composite structure and method for making the same
+      </div>
+    </div>
+
+    <div class="row text">        <!-- 获得奖励 -->
+      <div class="col-md-9">
+        <h3 class="title"><b> 获得奖励</b></h3>
+      </div>
+      <div class="col-md-9">
+        2020年度教育部青年长江学者</br>
+        2017年中国科学院青年创新促进会会员</br>
+        2015年国家纳米科学中心青年创新促进会会员</br>
+        2012年清华大学吴有训奖</br>
+        2011年教育部学术新人奖</br>
+        2011年清华大学综合一等奖学金</br>
+        2004-2007年连续获得清华大学曾宪梓奖学金</br>
+      </div>
+    </div>
+
+    <div class="row text">        <!-- 学术活动 -->
+      <div class="col-md-9">
+        <h3 class="title"><b> 学术活动</b></h3>
+      </div>
+      <div class="col-md-9">
+        2019年The 14th Asia-Pacific Physics Conference 2019(APPC-14) 马来西亚古晋邀请报告</br>
+        2018年Excitonics and Polaritonics International Conferences (EPIC) 新加坡 邀请报告</br>
+        2018年第二十届全国凝聚态理论与统计物理学术会议 成都 邀请报告</br>
+        2017年第三届凝聚态物理会议 上海 邀请报告</br>
+        2016年第九届计算纳米科学与新能源材料国际研讨会 邀请报告</br>
+        2015年第一届凝聚态物理会议暨第十四届凝聚态理论与材料计算国际会议 邀请报告</br>
+      </div>
+    </div>
+
+  <div class="row">       <!-- 代表性学术成果 -->
+    <div class="col-md-9">
+      <h3 class="title"><b> 发表论文</b></h3>
+    </div>
+    <div class="col-md-9">
+        <h4 class="publication">
+          <ul class="list-unstyled">
+            <li>
+              Shan Dong and Yuanchang Li*, </br>
+              “Transition from band insulator to excitonic insulator via alloying Se into monolayer TiS3: A computational study”, </br>
+              <strong><em>Phys. Rev. B</em></strong> 102, 155119 (2020).</br>
+              <h1></h1>
+            </li>
+            <li>
+              Zeyu Jiang, Wenkai Lou, Yu Liu, Yuanchang Li*, Haifeng Song, Kai Chang, Wenhui Duan, and Shengbai Zhang, </br>
+              “Spin-Triplet Excitonic Insulator: The Case of A Semi-Hydrogenated Graphene”,</br>
+              <strong><em>Phys. Rev. Lett.</em></strong> 124, 166401 (2020).</br>
+              <h1></h1>
+            </li>
+            <li>
+              Hengxin Tan, Haitao Liu, Yuanchang Li,* Wenhui Duan, and Shengbai Zhang, </br>
+              “Understanding the origin of bandgap problem in transition and post-transition metal oxides”,</br>
+              <strong><em>J. Chem. Phys.</em></strong> 151, 124703 (2019).</br>
+              <h1></h1>
+            </li>
+            <li>
+              Zeyu Jiang, Yuanchang Li*,  Wenhui Duan, and Shengbai Zhang, </br>
+              “Half-Excitonic Insulator: A Single-Spin Bose-Einstein Condensate”,</br>
+              <strong><em>Phys. Rev. Lett.</em></strong> 122, 236402 (2019)</br>
+              <h1></h1>
+            </li>
+            <li>
+              Hengxin Tan, Menglei Li,* Haitao Liu, Zhirong Liu,* Yuanchang Li,* and Wenhui Duan, </br>
+              “Two-dimensional ferromagnetic-ferroelectric multiferroics in violation of the d0 rule”,</br>
+              <strong><em>Phys. Rev. B</em></strong> 99, 195434 (2019).</br>
+              <h1></h1>
+            </li>
+            <li>
+              Mengxi Liu, Shichao Li, Jingyuan Zhou, Zeqi Zha, Jinliang Pan, Xin Li, Jin Zhang, Zhongfan Liu,* Yuanchang Li,* and   Xiaohui Qiu*, </br>
+              “ High-Yield Formation of Graphdiyne Macrocycles through On-Surface Assembling and Coupling Reaction”,</br>
+              <strong><em>ACS nano</em></strong> 12, 12612 (2018).</br>
+              <h1></h1>
+            </li>
+            <li>
+              Zeyu Jiang, Yuanchang Li*,  S. B. Zhang, and Wenhui Duan, </br>
+              “Realizing an intrinsic excitonic insulator by decoupling exciton binding energy from the minimum band gap”,</br>
+              <strong><em>Phys. Rev. B</em></strong> 98, 081408(R) (2018)</br>
+              <h1></h1>
+            </li>
+            <li>
+              Hengxin Tan, Yuanchang Li,* S. B. Zhang,* and W. H. Duan,* </br>
+              “Effect of Hartree–Fock pseudopotentials on local   density functional theory calculations”,</br>
+              <strong><em>Phys. Chem. Chem. Phys.</em></strong> 20, 18844 (2018).  </br>
+              <h1></h1>
+            </li>
+            <li>
+              Yue Qi, Caixia Meng, Xiaozhi Xu, Bing Deng, Nannan Han, Mengxi Liu, Min Hong, Yanxiao Ning, Kaihui Liu, Jijun Zhao, Qiang Fu, Yuanchang Li,* Yanfeng Zhang,*, and Zhongfan Liu*,</br> 
+              “Unique Transformation from Graphene to Carbide on Re(0001) Induced by Strong Carbon−Metal Interaction”,</br> 
+              <strong><em>J. Am. Chem. Soc.</em></strong> 139, 17574 (2017).</br> 
+              <h1></h1>
+            </li>
+            <li>
+              M. Hong, X. B. Zhou, J. P. Shi, Y. Qi, Z. P. Zhang, Q. Y. Fang, Y. G. Guo, Y. J. Sun, Z. F. Liu, Yuanchang Li, Q. Wang, Y. F. Zhang*, </br>
+              “Quasi-freestanding, striped WS2 monolayer with an invariable band gap on Au(001)”,</br>
+              <strong><em>Nano Res.</em></strong> 10, 3875 (2017).</br>
+              <h1></h1>
+            </li>
+            <li>
+              Mengxi Liu#, Jianping Shi#, Yuanchang Li#, Xiebo Zhou, Donglin Ma, Yue Qi, Yanfeng Zhang,* and Zhongfan Liu*, </br> 
+              “Temperature-Triggered Sulfur Vacancy Evolution in Monolayer MoS2/Graphene Heterostructures”,</br> 
+              <strong><em>Small</em></strong> 13, 1602967 (2017).</br> 
+              <h1></h1>
+            </li>
+            <li>
+              Jianping Shi, Xina Wang , Shuai Zhang, Lingfeng Xiao, Yahuan Huan, Yue Gong, Zhepeng Zhang, Yuanchang Li, Xiebo Zhou, Min Hong, Qiyi Fang, Qing Zhang, Xinfeng Liu, Lin Gu, Zhongfan Liu and Yanfeng Zhang*, </br> 
+              “Two-dimensional metallic tantalum disulfide as a hydrogen evolution catalyst”,</br> 
+              <strong><em>Nat. Commun.</em></strong> 8, 958 (2017)
+              <h1></h1>
+            </li>
+            <li>
+              Yanan Chen, Shaomao Xu, Yuanchang Li, Rohit Jiji Jacob, Yudi Kuang, Boyang Liu, Yilin Wang, Glenn Pastel, Lourdes G. Salamanca-Riba, Michael R. Zachariah, and Liangbing Hu*, </br> 
+              “FeS2 Nanoparticles Embedded in Reduced Graphene Oxide toward Robust, High-Performance Electrocatalysts”,</br> 
+              <strong><em>Adv. Energy Mater.</em></strong> 1700482 (2017)
+              <h1></h1>
+            </li>
+            <li>
+              Zeyu Jiang, Zhirong Liu*, Yuanchang Li*, and Wenhui Duan*, </br> 
+              “Scaling Universality between Band Gap and Exciton Binding Energy of Two-Dimensional Semiconductors”,</br> 
+              <strong><em>Phys. Rev. Lett.</em></strong> 139, 5849 (2017)
+              <h1></h1>
+            </li>
+            <li>
+              Yue Qi, Zhepeng Zhang, Bing Deng, Xiebo Zhou, Qiucheng Li, Min Hong, Yuanchang Li*, Zhongfan Liu*, and Yanfeng Zhang*, </br> 
+              “Irreparable Defects Produced by the Patching of h-BN Frontiers on Strongly Interacting Re(0001) and Their Electronic Properties”,</br> 
+              <strong><em>J. Am. Chem. Soc.</em></strong> 139, 5849 (2017).
+              <h1></h1>
+            </li>
+            <li>
+              Yanwen Chen, Yuanchang Li*, Wenhui Duan*, </br> 
+              “General criterion to distinguish between Schottky and Ohmic contacts at the metal/two-dimensional semiconductor interface”,</br> 
+              <strong><em>Nanoscale</em></strong> 9, 2068 (2017).
+              <h1></h1>
+            </li>
+            <li>
+              Hongyan Sun, Xinming Li,* Yuanchang Li, Guoxin Chen, Zhiduo Liu, Fakhr E. Alam, Dan Dai, Li Li, Li Tao, Jian-Bin Xu, Ying Fang, Xuesong Li, Pei Zhao, Nan Jiang, Ding Chen,* and Cheng-Te Lin*, </br> 
+              “High-Quality Monolithic Graphene Films via Laterally Stitched Growth and Structural Repair of Isolated Flakes for Transparent Electronics”,</br> 
+              <strong><em>Chem. Mater.</em></strong> 29, 7808 (2017).
+              <h1></h1>
+            </li>
+            <li>
+              Yue Qi, Nannan Han, Yuanchang Li, Zhepeng Zhang, Xiebo Zhou, Bing Deng, Qiucheng Li, Mengxi Liu, Jijun Zhao, Zhongfan Liu,* and Yanfeng Zhang*，</br> 
+              “Strong Adlayer−Substrate Interactions “Break” the Patching Growth of h BN onto Graphene on Re(0001)”</br> 
+              <strong><em>ACS nano</em></strong> 11, 1807 (2017).
+              <h1></h1>
+            </li>
+            <li>
+              Fengmei Wang, Peng He, Yuanchang Li, Tofik Ahmed Shifa, Ya Deng, Kaili Liu，Qisheng Wang, Feng Wang, Yao Wen, Zhenxing Wang, Xueying Zhan, Lianfeng Sun, and Jun He*, </br> 
+              “Interface Engineered WxC@WS2 Nanostructure for Enhanced Hydrogen Evolution Catalysis”,</br> 
+              <strong><em>Adv. Funct. Mater.</em></strong> 27, 1605802 (2017).
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, </br> 
+              “Gate-independent energy gap in noncovalently intercalated bilayer graphene on SiC(0001)”,</br> 
+              <strong><em>Phys. Rev. B</em></strong> 94, 245144 (2016).
+              <h1></h1>
+            </li>
+            <li>
+              Lixiang Zhong, Jia Li*, Yuanchang Li*, Haizhou Lu, Hongda Du, Lin Gan, Chengjun Xu, Sum Wai Chiang, and Feiyu Kang, </br> 
+              “Unraveling the Influence of Metal Substrates on Graphene Nucleation from First-Principles Study”, </br> 
+              <strong><em>J. Phys. Chem. C</em></strong> 120, 23239-23245 (2016).
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, </br> 
+              “Unconventional quantized edge transport in the presence of interedge coupling in intercalated graphene”,</br> 
+              <strong><em>Phys. Rev. B</em></strong> 94, 035147 (2016).
+              <h1></h1>
+            </li>
+            <li>
+              Fengmei Wang#, Yuanchang Li#, Tofik Ahmed Shifa, Kaili Liu, Feng Wang, Zhenxing Wang, Peng Xu, Qisheng Wang, and Jun He*, </br> 
+              “Selenium-Enriched Nickel Selenide Nanosheets as a Robust Electrocatalyst for Hydrogen Generation”, </br> 
+              <strong><em>Angew. Chem. Int.</em></strong> Ed. 55, 1 (2016). 
+              <h1></h1>
+            </li>
+            <li>
+              Yu Zhang, Qingqing Ji, Jinxiu Wen, Jiu Li, Cong Li, Jianping Shi, Xiebo Zhou, Kebin Shi, Huanjun Chen*, Yuanchang Li*, Shaozhi Deng, Ningsheng Xu, Zhongfan Liu, and Yanfeng Zhang*, </br> 
+              “Monolayer MoS2 Dendrites on a Symmetry-Disparate SrTiO3(001) Substrate: Formation Mechanism and Interface Interaction”,</br> 
+              <strong><em>Adv. Funct. Mater.</em></strong> 26, 3299 (2016).
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, </br> 
+              “Ferromagnet-to-Topological Insulator Transition via Lithiation and Their Lateral Heterostructures within Intercalated Graphene: An ab Initio Study”, </br> 
+              <strong><em>J. Phys. Chem. C</em></strong> 120, 2254 (2016).
+              <h1></h1>
+            </li>
+            <li>
+              Xinming Li, Miao Zhu, Mingde Du, Zheng Lv, Li Zhang, Yuanchang Li, Yao Yang, Tingting Yang, Xiao Li, Kunlin Wang, Hongwei Zhu, and Ying Fang. </br> 
+              “High Detectivity Graphene-Silicon Heterojunction Photodetector”, </br> 
+              <strong><em>Small</em></strong> 12, 595(2016).
+              <h1></h1>
+            </li>
+            <li>
+              Li Li, Xinming Li*, Mingde Du, Yichuan Guo, Yuanchang Li, Hongbian Li, Yao Yang, Fakhr E. Alam, Cheng-Te Lin, and Ying Fang*, </br> 
+              “Solid-Phase Coalescence of Electrochemically Exfoliated Graphene Flakes into a Continuous Film on Copper”,</br> 
+              <strong><em>Chem. Mater.</em></strong> 28, 3360 (2016).
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, Damien West*, Huaqing Huang, Jia Li, S. B. Zhang, and Wenhui Duan*. </br> 
+              “Theory of the Dirac half metal and quantum anomalous Hall effect in Mn-intercalated epitaxial graphene”, </br> 
+              <strong><em>Phys. Rev. B</em></strong> 92, 201403(R) (2015).
+              <h1></h1>
+            </li>
+            <li>
+              Pengcheng Chen, Yuanchang Li*, and Wenhui Duan*. </br> 
+              “Tunable magnetic interaction in hydrogenated epitaxial graphene modulated by the SiC substrate”, </br> 
+              <strong><em>Phys. Rev. B</em></strong> 92, 205433 (2015). 
+              <h1></h1>
+            </li>
+            <li>
+              Wen Zhao, Yuanchang Li, Wenhui Duan* and Feng Ding*. </br> 
+              “Ultra-stable small diameter hybrid transition metal dichalcogenide nanotubes X–M–Y (X, Y = S, Se, Te; M = Mo, W, Nb, Ta): a computational study”, </br> 
+              <strong><em>Nanoscale</em></strong> 7, 13586 (2015). 
+              <h1></h1>
+            </li>
+            <li>
+              Enzheng Shi, Hongbian Li, Long Yang, Junfeng Hou, Yuanchang Li, Li Li, Anyuan Cao, Ying Fang. </br> 
+              “Carbon nanotube network embroidered graphene films for monolithic all-carbon electronics”, </br> 
+              <strong><em>Adv. Mater.</em></strong> 27, 682 (2015).
+              <h1></h1>
+            </li>
+            <li>
+              Mengxi Liu#, Yuanchang Li#, Pengcheng Chen, Jingyu Sun, Donglin Ma, Qiucheng Li, Teng Gao, Yabo Gao, Zhihai Cheng, Xiaohui Qiu, Ying Fang, Yanfeng Zhang, and Zhongfan Liu. </br> 
+              “Quasi-Freestanding Monolayer Heterostructure of Graphene and Hexagonal Boron Nitride on Ir(111) with a Zigzag Boundary”, </br> 
+              <strong><em>Nano Lett.</em></strong> 14, 6342 (2014). 
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li* and Xiaobin Chen. </br> 
+              “Dirac fermions in blue-phosphorus”, </br> 
+              <strong><em>2D Mater.</em></strong> 1, 031002 (2014).
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, Xiaolong Zou, Jia Li*, and Gang Zhou. </br> 
+              “Ferromagnetism and topological surface states of manganese doped Bi2Te3: Insights from density-functional calculations”, </br> 
+              <strong><em>J. Chem. Phys.</em></strong> 140, 124704 (2014).
+              <h1></h1>
+            </li>
+            <li>
+              Wen Zhao, Pengcheng Chen, Peizhe Tang, Yuanchang Li*, Jian wu, and Wenhui Duan*. </br> 
+              “Sulfur immobilization and lithium storage on defective graphene: A first-principles study”, </br> 
+              <strong><em>Appl. Phys. Lett.</em></strong> 104, 043901 (2014). 
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li and Ying Fang*. </br> 
+              “The design of d-character Dirac cones based on graphene”, </br> 
+              <strong><em>J. Phys.: Condens. Matter</em></strong> 26, 385501 (2014). [IOPSELECT]
+              <h1></h1>
+            </li>
+            <li>
+              ZhenxingWang, Kai Xu, Yuanchang Li, Xueying Zhan, Muhammad Safdar, QishengWang, FengmeiWang, and Jun He*. </br> 
+              “Role of Ga Vacancy on a Multilayer GaTe Phototransistor” </br> 
+              <strong><em>ACS nano</em></strong> 8, 4859 (2014).
+              <h1></h1>
+            </li>
+            <li>
+              Fengmei Wang, Yuanchang Li, Zhongzhou Cheng, Kai Xu, Xueying Zhan, Zhenxing Wang, and Jun He*. </br> 
+              “Construction of 3D V2O5/hydrogenated-WO3 nanotrees on tungsten foil for high-performance pseudocapacitors” </br> 
+              <strong><em>Phys. Chem. Chem. Phys.</em></strong> 16, 12214 (2014).
+              <h1></h1>
+            </li>
+            <li>
+              Zengguang Cheng, Junfeng Hou, Qiaoyu Zhou, Tianyi Li, Hongbian Li, Long Yang, Kaili Jiang, Chen Wang, Yuanchang Li*, and Ying Fang*. </br> 
+              “Sensitivity Limits and Scaling of Bioelectronic Graphene Transducers”, </br> 
+              <strong><em>Nano Lett.</em></strong> 13, 2902 (2013). 
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, Peizhe Tang, Pengcheng Chen, Jian Wu, Bing-Lin Gu, Ying Fang, S. B. Zhang* and Wenhui Duan*. </br> 
+              “Topological insulators in transition-metal intercalated graphene: The role of d electrons in significantly increasing the spin-orbit gap”, </br> 
+              <strong><em>Phys. Rev. B</em></strong> 87, 245127 (2013). 
+              <h1></h1>
+            </li>
+            <li>
+              Long Yang, Yuanchang Li, and Ying Fang*. </br> 
+              “Nanodevices for Cellular Interfaces and Electrophysiological Recording”, </br> 
+              <strong><em>Adv. Mater.</em></strong> 25, 3881 (2013).
+              <h1></h1>
+            </li>
+            <li>
+              Yabo Gao, Yanfeng Zhang, Pengcheng Chen, Yuanchang Li, Mengxi Liu, Teng Gao, Donglin Ma, Yubin Chen, Zhihai Cheng, Xiaohui Qiu, Wenhui Duan, and Zhongfan Liu. </br> 
+              “Toward Single-Layer Uniform Hexagonal Boron Nitride−Graphene Patchworks with Zigzag Linking Edges”, </br> 
+              <strong><em>Nano Lett.</em></strong> 13, 3439 (2013).
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, Pengcheng Chen, Gang Zhou, Jia Li, Jian Wu, Bing-Lin Gu, S. B. Zhang* and Wenhui Duan*. </br> 
+              “Dirac Fermion in Strongly-Bound Graphene Systems”, </br> 
+              <strong><em>Phys. Rev. Lett.</em></strong> 109, 206802 (2012). 
+              <h1></h1>
+            </li>
+            <li>
+              Pengcheng Chen, Yuanchang Li, Chen Si, Jian Wu, Jisoon Ihm and Wenhui Duan.</br> 
+              “First-principles study of hydrogenated carbon nanotubes: A promising route for bilayer graphene nanoribbons”, </br> 
+              <strong><em>Appl. Phys. Lett.</em></strong> 101, 033105 (2012).
+              <h1></h1>
+            </li>
+            <li>
+              Chen Si, Gang Zhou, Yuanchang Li, Jian Wu, and Wenhui Duan. </br> 
+              “Interface engineering of epitaxial graphene on SiC(0001) via fluorine intercalation: a first principles study”, </br> 
+              <strong><em>Appl. Phys. Lett.</em></strong> 100, 103105 (2012).
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, Xiaobin Chen, Gang Zhou, Wenhui Duan, Youngkuk Kim, Minsung Kim, and Jisoon Ihm. </br> 
+              “Trends in charge transfer and spin alignment of metallocene on graphene”, </br> 
+              <strong><em>Phys. Rev. B</em></strong> 83, 195443 (2011).
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, Gang Zhou, Jian Wu, and Wenhui Duan. </br> 
+              “Electronic and magnetic properties of early transition-metal substituted iron-cyclopentadienyl sandwich molecular wires: Parity-dependent half-metallicity”, </br> 
+              <strong><em>J. Chem. Phys.</em></strong> 135, 014702 (2011).
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, Gang Zhou, Jia Li, Jian Wu, Bing-Lin Gu, and Wenhui Duan. </br> 
+              “Lithium Intercalation Induced Decoupling of Epitaxial Graphene on SiC(0001): Electronic Property and Dynamic Process”, </br> 
+              <strong><em>J. Phys. Chem. C</em></strong> 115, 23992 (2011).
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, Gang Zhou, Jia Li, Jian Wu, Bing-Lin Gu, and Wenhui Duan. </br> 
+              “Ab initio Study of Half-Metallicity and Magnetism of Complex Organometallic Molecular Wires”, </br> 
+              <strong><em>J. Phys. Chem. C</em></strong> 115, 7292–7297 (2011).
+              <h1></h1>
+            </li>
+            <li>
+              Liwen Ji, Mumin Rao, Haimei Zheng, Liang Zhang, Yuanchang Li, Wenhui Duan, Jinghua Guo, Elton J. Cairns, and Yuegang Zhang. </br> 
+              “Graphene Oxide as a Sulfur Immobilizer in High Performance Lithium/Sulfur Cells”, </br> 
+              <strong><em>J. Am. Chem. Soc.</em></strong> 133, 18522 (2011).
+              <h1></h1>
+            </li>
+            <li>
+              Yuanchang Li, Gang Zhou, Jia Li, Bing-Lin Gu, and Wenhui Duan. </br> 
+              “Alkali-metal-doped B80 as high-capacity hydrogen-storage media”, </br> 
+              <strong><em>J. Phys. Chem. C</em></strong> 112, 19268 (2008).
+              <h1></h1>
+            </li>
+          </ul>
+        </h4>
+    </div>
+  </div>
+
+  </div>
+  <!-- Yuancang Li content end -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="row" style="height: 50px;"></div>
+<!-- 8 Yuancang Li end -->
+
+
+
+<!-- 9 Junxi Duan start -->
+
+            <div class="modal fade" id="jxduan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Junxi Duan</h4>
+                  </div>
+                  <div class="modal-body">
+
+  <!-- Junxi Duan start -->
+  <div class="container ">
+
+  <div class="row">       <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>段俊熙</b> <small>副教授</small></h1>
+    </div>
+    <div class="col-md-9 lead text">
+      邮箱： 6120170107@bit.edu.cn</br>
+      办公地点： 北京理工大学良乡校区</br>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 教育经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2004 - 2009</td>
+          <td>北京大学物理学院获物理学学士，数学科学学院获数学学士（双学位）</td>
+        </tr>
+        <tr class="text">
+          <td>2009 - 2014</td>
+          <td>北京大学物理学院获凝聚态物理博士，导师：沈波教授，葛惟昆教授。</td>
+        </tr>
+        <tr class="text">
+          <td>2013.2 – 2013.5</td>
+          <td>澳大利亚新南威尔士大学CQC2T中心交流学生，导师：Prof. Sven Rogge。</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 工作经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2014.9 – 2017.9 </td>
+          <td>美国罗格斯（新泽西州立）大学物理与天文系博士后。合作导师：Prof.  Eva Y. Andrei 和 Prof. Mona Zerbajadi 。</td>
+        </tr>
+        <tr class="text">
+          <td>2017.11 – 至今</td>
+          <td>北京理工大学物理学院，特别副研究员。</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 研究方向 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 研究方向</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="lead">
+        感兴趣低维材料体系和拓扑材料体系的低温输运，自旋输运和热电输运等性质的研究。</br>
+        擅长低维材料制备和转移，微纳器件加工，低温输运测量（He3 ，He4系统）等实验技术。</br>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 代表性学术成果 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 代表性学术成果</b></h2>
+    </div>
+    <div class="col-md-9">
+        <h4 class="publication">
+        
+        </h4>
+    </div>
+  </div>
+
+  </div>
+  <!-- Junxi Duan content end -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="row" style="height: 50px;"></div>
+<!-- 9 Junxi Duan end -->
+
+
+<!-- 10 Qingsheng Wang start -->
+
+            <div class="modal fade" id="qswang" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Qingsheng Wang</h4>
+                  </div>
+                  <div class="modal-body">
+
+  <div class="container ">
+
+  <div class="row">       <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>王钦生</b> <small>特别副研究员</small></h1>
+    </div>
+    <div class="col-md-9 lead text">
+      邮箱： tsingson@bit.edu.cn</br>
+      办公地点： 北京理工大学良乡校区</br>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 教育经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2006 - 2010</td>
+          <td>中国科学技术大学 物理学院 学士 导师：任希锋</td>
+        </tr>
+        <tr class="text">
+          <td>2011 - 2016</td>
+          <td>北京大学 物理学院 量子材料科学中心 博士，导师：孙栋</td>
+        </tr>
+        <tr class="text">
+          <td>2012 – 2013</td>
+          <td>美国 密歇根大学 超快光学中心，导师： Theodore Norris</td>
+        </tr>
+        <tr class="text">
+          <td>2010 – 2011</td>
+          <td>中国科学技术大学 中科院量子信息重点实验室 访问学生 导师：李传锋</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 工作经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2016 – 2018</td>
+          <td>北京理工大学物理学院 博士后 合作导师：姚裕贵</td>
+        </tr>
+        <tr class="text">
+          <td>2019 – 至今</td>
+          <td>北京理工大学物理学院，特别副研究员。</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 研究方向 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 研究方向</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="lead">
+        <li>利用超快光谱、扫描光电流谱等手段研究固体材料的光学及光电响应性质；</br></li>
+        <li>新型二维材料及拓扑材料的载流子动力学及光电响应行为及响应机理，光照下非平衡载流子输运行为；</br></li>
+        <li>低维材料及拓扑材料新型光电探测器；新型材料在光电探测上的应用；贝里相位相关光电效应</br></li>
+        <li>低维材料及拓扑材料的光致发光谱，拉曼谱，泵浦-探测光谱，太赫兹谱，二次谐波谱。</br></li>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 代表性学术成果 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 代表性学术成果</b></h2>
+    </div>
+    <div class="col-md-9">
+        <p class="text">
+          已在Nano letters，ACS Nano, Advanced materials等期刊发表文章9篇。总引用数约400次（Google Scholar）。
+        </p>
+        <h4 class="publication">
+          <ul class="list-unstyled">
+            <li>
+              Qinsheng Wang#, Cai-Zhen Li#, Shaofeng Ge, Jin-Guang Li, Wei Lu, Jiawei Lai, Xuefeng Liu, Junchao Ma, Da-Peng Yu, Zhi-Min Liao*, Dong Sun*, </br> 
+              Ultrafast Broadband Photodetectors Based on Three-Dimensional Dirac Semimetal Cd3As2, </br> 
+              <strong><em>Nano Letters</em></strong>, 2017, 17 (2): 834-841</br> 
+              <h1></h1>
+            </li>
+            <li>
+              Qinsheng Wang, Jiawei Lai, and Dong Sun*, </br> 
+              Review of photo response in semiconductor transition metal dichalcogenides based photosensitive devices, </br> 
+              <strong><em>Optical Materials Express</em></strong>, 2016, 6 (7): 2313-2327</br> 
+              <h1></h1>
+            </li>
+            <li>
+              Jing-Jing Chen#, Qinsheng Wang#, Jie Meng, Xiaoxing Ke, Gustaaf Van Tendeloo, Ya-Qing Bie, Junku Liu, Kaihui Liu, Zhi-Min Liao*, Dong Sun*, Dapeng Yu*, </br> 
+              Photovoltaic Effect and Evidence of Carrier Multiplication in Graphene Vertical Homojunctions with Asymmetrical Metal Contacts, </br> 
+              <strong><em>ACS Nano</em></strong>, 2015, 9 (9): 8851–8858</br> 
+              <h1></h1>
+            </li>
+            <li>
+              Qinsheng Wang#, Shaofeng Ge#, Xiao Li, Jun Qiu, Yanxin Ji, Ji Feng, and Dong Sun*, </br> 
+              Valley Carrier Dynamics in Monolayer Molybdenum Disulfide from Helicity-Resolved Ultrafast Pump–Probe Spectroscopy, </br> 
+              <strong><em>ACS Nano</em></strong>, 2013, 7 (12): 11087–11093</br> 
+              <h1></h1>
+            </li>
+            <li>
+              Jiawei Lai, Xin Liu, Junchao Ma, Qinsheng Wang, Kenan Zhang, Xiao Ren, Yinan Liu, Qiangqiang Gu, Xiao Zhuo, Wei Lu, Yang Wu, Yuan Li, Ji Feng, Shuyun Zhou, Jian‐Hao Chen, Dong Sun； </br> 
+              Anisotropic Broadband Photoresponse of Layered Type‐II Weyl Semimetal MoTe2, </br> 
+              <strong><em>Advanced Materials</em></strong> 2018, 1707152</br> 
+              <h1></h1>
+            </li>
+            <li>
+              Shaofeng Ge, Chaokai Li, Zhiming Zhang, Chenglong Zhang, Yudao Zhang, Jun Qiu, Qinsheng Wang, Junku Liu, Shuang Jia, Ji Feng, Dong Sun, </br> 
+              Dynamical Evolution of Anisotropic Response in Black Phosphorus under Ultrafast Photoexcitation, </br> 
+              <strong><em>Nano Letters</em></strong>, 2015, 15 (7): 4650-4656</br> 
+              <h1></h1>
+            </li>
+            <li>
+              Yuan Yan, Zhi-Min Liao*, Xiaoxing Ke, Gustaaf Van Tendeloo, Qinsheng Wang, Dong Sun, Wei Yao, Shuyun Zhou, Liang Zhang, Han-Chun Wu, Da-Peng Yu*, </br> 
+              Topological Surface State Enhanced Photothermoelectric Effect in Bi2se3 Nanoribbons, </br> 
+              <strong><em>Nano Letters</em></strong>, 2014, 14 (8): 4389–4394</br> 
+              <h1></h1>
+            </li>
+            <li>
+              Shaofeng Ge, Xuefeng Liu, Xiaofen Qiao, Qinsheng Wang, Zhen Xu, Jun Qiu, Ping-Heng Tan, Jimin Zhao, Dong Sun, </br> 
+              Coherent Longitudinal Acoustic Phonon Approaching THz Frequency in Multilayer Molybdenum Disulphide, </br> 
+              <strong><em>Scientific Reports</em></strong>, 2014, 4: 5722</br> 
+              <h1></h1>
+            </li>
+            <li>
+              Dong Sun*, Jia-Wei Lai, Jun-Chao Ma, Qin-Sheng Wang, Jing Liu ，</br> 
+              Review of ultrafast spectroscopy studies of valley carrier dynamics in two-dimensional semiconducting transition metal dichalcogenides, </br> 
+              <strong><em>Chinese Phys. B</em></strong>, 2017, 26, 037801.</br> 
+              <h1></h1>
+            </li>
+          </ul>
+        </h4>
+    </div>
+   
+  </div>
+
+  </div>
+  <!-- Qingsheng Wang content end -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="row" style="height: 50px;"></div>
+<!-- 10 Qingsheng Wang end -->
+
+<!-- 11 Zhiwei Wang start -->
+
+            <div class="modal fade" id="zwwang" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Zhiwei Wang</h4>
+                  </div>
+                  <div class="modal-body">
+
+  <!-- Zhiwei Wang start -->
+  <div class="container ">
+
+  <div class="row">       <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>王秩伟</b> <small>特别研究员</small></h1>
+    </div>
+    <div class="col-md-9 lead text">
+      邮箱：zhiweiwang@bit.edu.cn</br>
+      办公地点： 北京理工大学良乡校区 理学楼C楼210</br>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 教育经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2008年9月---2012年7月</td>
+          <td>中国科学院物理研究所获得理学博士学位</td>
+        </tr>
+        <tr class="text">
+          <td>2012年8月---2014年7月  </td>
+          <td>瑞士日内瓦大学凝聚态物理系 博士后</td>
+        </tr>
+        <tr class="text">
+          <td>2014年8月---2015年10月   </td>
+          <td>日本大阪大学产业科学与技术研究所 博士后</td>
+        </tr>
+        <tr class="text">
+          <td>2015年10月---2019年2月   </td>
+          <td>德国科隆大学物理II系 博士后</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 工作经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2019年3月---至今</td>
+          <td>北京理工大学物理学院，特别研究员、博士生导师</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 研究方向 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 研究方向</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="lead">
+        <li>材料的晶体生长和新材料探索。</br></li>
+        <li>材料的物理性质以及物性与结构、微结构相关联研究。</br></li>
+        <li>纳米材料的生长和基本表征。</br></li>
+        <li>与国内外知名课题组开展合作研究。</br></li>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 代表性学术成果 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 代表性学术成果</b></h2>
+    </div>
+    <div class="col-md-9">
+        <p class="text">
+          至今已在Nature Physics, Nature Communications, PRL, PRX, PRB, Nano Letters, Chemistry of Materials 等国际Top期刊发表SCI论文40多篇。代表性工作有：
+        </p>
+        <h4 class="publication">
+          <ul class="list-unstyled">
+            <li>
+            Observation of Chiral Fermions with a Large Topological Charge and Associated Fermi-Arc Surface States in CoSi.  </br> 
+            Daichi Takane, Zhiwei Wang, Seigo Souma, Kosuke Nakayama, Takechika Nakamura, Hikaru Oinuma, Yuki Nakata, Hideaki Iwasawa, Cephise Cacho, Timur Kim, Koji Horiba, Hiroshi Kumigashira, Takashi Takahashi, Yoichi Ando, and Takafumi Sato,  </br> 
+            Phys. Rev. Lett. 122 (2019) 076402. (Featured in Physics, Editor’s Suggestion)
+            <h1></h1>
+            </li>
+            <li>
+            Evidence for bulk nodal loops and universality of Dirac-node arc surface states in ZrGeXc (Xc = S, Se, Te).  </br> 
+            Takechika Nakamura, Seigo Souma, Zhiwei Wang, et al.  </br> 
+            Phys. Rev. B, 2019, 99, 245105. 
+            <h1></h1>
+            </li>
+            <li>
+            Large positive magnetoconductivity at microwave frequencies in the compensated topological insulator BiSbTeSe2.  </br> 
+            Mahasweta Bagchi, Lea Pitz-Paal, Christoph P. Grams, Oliver Breunig, Nick Borgwardt, Zhiwei Wang, Yoichi Ando, Markus Grüninger, and Joachim Hemberger.  </br> 
+            Phys. Rev. B, 2019, 99, 161121(R).  
+            <h1></h1>
+            </li>
+            <li>
+            Nematic superconductivity in Cu1.5(PbSe)5(Bi2Se3)6.  </br> 
+            Lionel Andersen, Zhiwei Wang, Thomas Lorenz, and Yoichi Ando,  </br> 
+            Phys. Rev. B 98 (2018) 220512(R) (Editor’s Suggestion)
+            <h1></h1>
+            </li>
+            <li>
+            Direct Visualization of the Nematic Superconductivity in CuxBi2Se3. </br> 
+            Ran Tao, Ya-Jun Yan, Xi Liu, Zhi-Wei Wang, Yoichi Ando, Qiang-Hua Wang, Tong Zhang, and Dong-Lai Feng.  </br> 
+            Phys. Rev. X 8 (2018) 041024. 
+            <h1></h1>
+            </li>
+            <li>
+            Anomalous Fraunhofer Patterns in Gated Josephson Junctions Based on the Bulk-Insulating Topological Insulator BiSbTeSe2.  </br> 
+            Subhamoy Ghatak, Oliver Breunig, Fan Yang, Zhiwei Wang, Alexey A. Taskin, and Yoichi Ando.  </br> 
+            Nano Lett.  18 (8) 5124–5131 (2018)
+            <h1></h1>
+            </li>
+            <li>
+            Scanning tunneling spectroscopy investigations of superconducting-doped topological insulators: Experimental pitfalls and results.  </br> 
+            Stefan Wilfert, Paolo Sessi, Zhiwei Wang, et al.  </br> 
+            Phys. Rev. B 98, 085133 (2018).
+            <h1></h1>
+            </li>
+            <li>
+            Observation of band crossings protected by nonsymmorphic symmetry in the layered ternary telluride Ta3SiTe6.  </br> 
+            Takafumi Sato, Zhiwei Wang, Kosuke Nakayama, et al.  </br> 
+            Phys. Rev. B, 2018, 98, 121111(R).
+            <h1></h1>
+            </li>
+            <li>
+            Thermodynamic evidence for nematic superconductivity in CuxBi2Se3.  </br> 
+            S. Yonezawa, K. Tajiri, S. Nakata, Y. Nagai, Zhiwei Wang, K. Segawa, Yoichi Ando and Y. Maeno.  </br> 
+            Nature Physics 13, (2017) 123–126
+            <h1></h1>
+            </li>
+            <li>
+            Gigantic negative magnetoresistance in a disordered topological insulator.  </br> 
+            O. Breunig#, Zhiwei Wang#, A. Taskin, Jonathan Lux, Achim. Rosch, and Y. Ando,  </br> 
+            Nature Communications, 8 (2017) 15545. 
+            <h1></h1>
+            </li>
+            <li>
+            Charge puddles in the bulk and on the surface of the topological insulator BiSbTeSe2 studied by scanning tunneling microscopy and optical spectroscopy.  </br> 
+            T. Knispel, W. Jolie, N. Borgwardt, J. Lux, Zhiwei Wang, Yoichi Ando, A. Rosch, T. Michely, and M. Grüninger,  </br> 
+            Phys. Rev. B 96 (2017) 195135. (Editor’s Suggestion).  
+            <h1></h1>
+            </li>
+            <li>
+            Superconductivity in Tl0.6Bi2Te3 Derived from a Topological Insulator.  </br> 
+            Zhiwei Wang, A. A. Taskin, Tobias Froelich, Markus Braden, and Yoichi Ando,  </br> 
+            Chemistry of Materials. 2016, 28, 779−784. 
+            <h1></h1>
+            </li>
+            <li>
+            Direct Observation of Nonequivalent Fermi-Arc States of Opposite Surfaces in Noncentrosymmetric Weyl Semimetal NbP.  </br> 
+            S. Souma, Zhiwei Wang, H. Kotaka, T. Sato, K. Nakayama, Y. Tanaka, H. Kimizuka, T. Takahashi, K. Yamauchi, T. Oguchi, Kouji Segawa, Yoichi Ando,  </br> 
+            Phys Rev B, 93 (2016) 161112(R) (Editor’s Suggestion)  
+            <h1></h1>
+            </li>
+            <li>
+            Dirac-node arc in the topological line-node semimetal HfSiS.  </br> 
+            D. Takane, Zhiwei Wang, S. Souma, et al.  </br> 
+            Phys. Rev. B, 2016, 94, 121108(R).  
+            <h1></h1>
+            </li>
+            <li>
+            Metal-insulator transition and tunable Dirac-cone surface state in the topological insulator TlBi1−xSbxTe2 studied by angle-resolved photoemission.  </br> 
+            Chi Xuan Trang, Zhiwei Wang, Keiko Yamada, et al.  </br> 
+            Phys. Rev. B 93, 165123 (2016). 
+            <h1></h1>
+            </li>
+            <li>
+            N. Borgwardt, J. Lux, I. Vergara, Zhiwei Wang, et al.  </br> 
+            Self-organized charge puddles in a three-dimensional topological material.  </br> 
+            Phys. Rev. B 2016, 93, 245149. (Editor’s Suggestion).
+            <h1></h1>
+            </li>
+            <li>
+            Fermiology of possible topological superconductor Tl0.5Bi2Te3 derived from hole-doped topological insulator.  </br> 
+            C. X. Trang, Z. Wang, D. Takane,et al.  </br> 
+            Phys. Rev. B 93, 241103(R) (2016).
+            <h1></h1>
+            </li>
+            <li>
+            Ferromagnetism in Cr-doped topological insulator TlSbTe2.  </br> 
+            Zhiwei Wang, Kouji Segawa, Satoshi Sasaki, A. A. Taskin, and Yoichi Ando,  </br> 
+            APL Materials, 3 (2015) 083302.
+            <h1></h1>
+            </li>
+            <li>
+            Strong coupling of the iron-quadrupole and anion-dipole polarizations in Ba(Fe1-xCox)2As2.  </br> 
+            C. Ma, L. Wu, W. G. Yin, H. X. Yang, H. L. Shi, Z. W. Wang, J. Q. Li, C. C. Homes, Y. M. Zhu.  </br> 
+            Phys. Rev. Lett. 112 (2014) 077001.
+            <h1></h1>
+            </li>
+            <li>
+            Structural Phase Separation in K0.8Fe1.6+xSe2 Superconductors.  </br> 
+            Z. W. Wang, Z. Wang, Y. J. Song , C. Ma, Y. Cai, Z.Chen, H. F. Tian, H. X. Yang, G. F. Chen, and J. Q. Li,  </br> 
+            J. Phys. Chem. C (2012), 116, 17847−17852. 
+            <h1></h1>
+            </li>
+            <li>
+            Microstructure and ordering of iron vacancies in the superconductor system KyFexSe2 as seen via transmission electron microscopy.  </br> 
+            Z. Wang, Y. J. Song , H. L. Shi, Z. W. Wang, Z. Chen, H. F. Tian, G. F. Chen, J. G. Guo, H. X. Yang and J. Q. Li,  </br> 
+            Phys. Rev. B 83 (2011) 140505(R). (Editor’s Suggestion). 
+            <h1></h1>
+            </li>
+          </ul>
+        </h4>
+    </div>
+   
+  </div>
+
+  </div>
+  <!-- Zhiwei Wang content end -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="row" style="height: 50px;"></div>
+<!-- 11 Zhiwei Wang end -->
+
+
+<!-- 12 Xiang Li start -->
+
+            <div class="modal fade" id="xli" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Xiang Li</h4>
+                  </div>
+                  <div class="modal-body">
+
+  <!-- Xiang Li start -->
+  <div class="container ">
+
+  <div class="row">       <!-- 基本信息 -->
+    <div class="col-md-9">
+      <h1><b>李翔</b> <small>特别研究员</small></h1>
+    </div>
+    <div class="col-md-9 lead text">
+      邮箱：xiangli@bit.edu.cn</br>
+      办公地点： 北京理工大学物理学院中心教学楼703室</br>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 教育经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 教育经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2005-2009</td>
+          <td>北京科技大学应用物理系获得理学学士学位</td>
+        </tr>
+        <tr class="text">
+          <td>2009-2014</td>
+          <td>中国科学院物理研究所获得理学博士学位 导师：靳常青教授</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 工作经历 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 工作经历</b></h2>
+    </div>
+    <div class="col-md-9">
+      <table class="table table-hover">
+        <tr class="text" style="background-color:#cfd8dc">
+          <th>年份</th>
+          <th>单位</th>
+        </tr>
+        <tr class="text">
+          <td>2013-2014</td>
+          <td>美国得克萨斯大学奥斯汀分校机械工程系访问学者 导师：John B. Goodenough院士/Jian-shi Zhou教授</td>
+        </tr>
+        <tr class="text">
+          <td>2014-2018</td>
+          <td>美国得克萨斯大学奥斯汀分校机械工程系博士后 导师：John B. Goodenough院士/Jian-shi Zhou教授</td>
+        </tr>
+        <tr class="text">
+          <td>2018至今</td>
+          <td>北京理工大学物理学院，特别研究员，博士生导师</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row text">        <!-- 研究方向 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 研究方向</b></h2>
+    </div>
+    <div class="col-md-9">
+      <p class="lead">
+        长期致力于超高压极端条件下的新技术突破、新材料合成以及力学-物理/化学多场耦合调控研究：
+        设计并搭建了具有世界顶尖水平的大腔体高压高温合成装置，发展了国际先进的高压金刚石对顶砧、
+        高压原位光谱等多种高压测量技术，解决了在超高压力区间制备和表征材料的难题；在这些技术基础上，
+        通过探究超高压极端条件下物质的力学结构、化学组分和光-热-磁-电等性能的演变规律，开发基于压力调控的全新材料体系及其先进功能特性。
+        到目前为止，在Science Adv., Nature Commun., Proc. Natl. Acad. Sci. USA, Phys. Rev. Lett., J. Am. Chem. Soc., Adv. Mater.
+        等期刊上共发表SCI论文30余篇，总计被引用近600次；并多次在国内外重要学术会议上作邀请报告。
+      </p>
+    </div>
+  </div>
+
+  <div class="row">       <!-- 代表性学术成果 -->
+    <div class="col-md-9">
+      <h2 class="title"><b> 代表性学术成果</b></h2>
+    </div>
+    <div class="col-md-9">
+        <h4 class="publication">
+          <ul class="list-unstyled">
+            <li>
+            X. Li et al., </br> 
+            “Pressure-induced phase transitions and superconductivity in a black phosphorus single crystal”, </br> 
+            Proceedings of the National Academy of Sciences, 1810726115 (2018)
+            <h1></h1>
+            </li>
+            <li>
+            X. Li et al., </br> 
+            “Spin freezing into a disordered state in CaFeTi2O6 synthesized under high pressure”, </br> 
+            Physical Review B, 98, 064201 (2018)
+            <h1></h1>
+            </li>
+            <li>
+            X. Li et al.,</br> 
+            “Long-range magnetic order in the Heisenberg pyrochlore antiferromagnets Gd2Ge2O7 and Gd2Pt2O7 synthesized under high pressure”, </br> 
+            Physical Review B, 94, 214429 (2016)
+            <h1></h1>
+            </li>
+            <li>
+            X. Li et al., </br> 
+            “Synthesis of monoclinic IrTe2 under high pressure and its physical properties”, </br> 
+            Physical Review B, 92, 155118 (2015)
+            <h1></h1>
+            </li>
+            <li>
+            X. Li et al., </br> 
+            “Long-range antiferromagnetic order in the frustrated XY pyrochlore antiferromagnet Er2Ge2O7”, </br> 
+            Physical Review B, 89, 064409 (2014)
+            <h1></h1>
+            </li>
+            <li>
+            X. Li et al., </br> 
+            “Synthesis and Structural Study of BiRhO3 at High Pressure”, 
+            International Journal of Modern Physics B, 27, 1362021 (2013)
+            <h1></h1>
+            </li>
+            <li>
+            X. Li et al.,</br> 
+            “Compact 6/8-Type Large-Volume High Pressure and High Temperature Facilities and Syntheses of New Materials” , </br> 
+            Chinese Journal of High Pressure Physics, 27(2): 223-229 (2013)
+            <h1></h1>
+            </li>
+          </ul>
+        </h4>
+    </div>
+   
+  </div>
+
+  </div>
+  <!-- Xiang Li content end -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="row" style="height: 50px;"></div>
+<!-- 12 Xiang Li end -->
+
+<!-- postdoc --><!-- postdoc --><!-- postdoc --><!-- postdoc --><!-- postdoc --><!-- postdoc --><!-- postdoc --><!-- postdoc --><!-- postdoc -->
+
+<!-- 2. main end -->
+
+  <!-- 3. footer start   -->
+      <div class="row mastfoot">
+        <h5 class="text_light">北京理工大学物理学院 | 量子功能材料设计与应用实验室</h5>
+        <h5 class="text_light">地址：北京市海淀区中关村南大街5号，邮编：100081</h5>
+      </div>
+    </div>
+  <!-- 3. footer end -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../dist/js/jquery.min.js"></script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <script src="../dist/js/scripts.js"></script>
+    <!-- <script src="assets/js/docs.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="assets/js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,215 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #222;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: black;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: white ;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: white;
+}
+body {
+  color: black;
+  text-align: justify;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 450px;
+  padding: 40px;
+  background-image: url(./bg.jpg);
+  background-size: cover;
+  font-family: "Microsoft YaHei";
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+
+
+/*
+ * 1. Header start
+ */
+ 
+ .masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Georgia";
+}
+
+.masthead-title {
+  margin-top: 10px;
+  color: #f5f5f5;
+  text-align:center;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+.masthead-motto {
+  margin-top: 50px;
+  color: white;
+  text-align:center;
+  font-family: "楷体";
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-bottom: 3px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: white;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: white;
+  border-bottom-color: white;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+/*
+ * 1. Header end
+ */
+
+
+
+/*
+ * Research area
+ */
+
+
+/*
+ * Members
+ */
+
+
+/*
+ * ...
+ */
+
+
+
+/*
+ * 3. Footer start
+ */
+ 
+.footer {
+  color: white;
+  background-color: #3949ab;
+  font-family: "Microsoft YaHei";
+}
+.mastfoot {
+  color: white;
+  background-color: #3949ab;
+  text-align:center;
+  font-family: "Microsoft YaHei";
+}
+
+.link_1:hover {
+  color: #039be5;
+  text-shadow: none; /* Prevent inheritence from `body` */
+}
+
+/*
+ * 3. Footer end
+ */
+.title {
+  color: #424242;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #00796b;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-weight: bold;
+}
+
+.text {
+  color: #424242;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+.text_light {
+  color: #e0f2f1;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+.publication {
+  color: #424242;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.highlight_1 {
+  color: #0d47a1;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+.white-YaHei {
+  color: white;
+  font-family: "Microsoft YaHei";
+}
+
+.black-YaHei {
+  color: black;
+  font-family: "Microsoft YaHei";
+}
+
+.dark-red-YaHei {
+  color: #880000;
+  font-family: "Microsoft YaHei";
+}
+
+.black-Times {
+  color: black;
+  font-family: "Times New Roman";
+}
+
+.dark-red-Times {
+  color: #880000;
+  font-family: "Times New Roman";
+}

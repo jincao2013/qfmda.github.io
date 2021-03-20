@@ -1,0 +1,15 @@
+#!/bin/bash
+mkdir temp
+cp update.zip temp/
+cd temp/
+unzip update.zip
+rm update.zip
+
+sudo rm -rf /var/www/html/labpage/*
+sudo cp -r public_html/* /var/www/html/labpage/
+
+cd ..
+rm -rf temp/
+sudo chmod 775 -R /var/www/html/labpage/*
+
+sudo ln -s /var/www/html/labpage/index_zh.html /var/www/html/labpage/index.html

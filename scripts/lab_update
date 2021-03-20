@@ -1,0 +1,16 @@
+#!/bin/bash
+mkdir temp
+cp qfmda*.tar.gz temp/
+cd temp/
+tar zxvf *.tar.gz
+rm *.tar.gz
+
+rm -rf /var/www/html/labpage/*
+cp -r public_html/* /var/www/html/labpage/
+
+cd ..
+rm -rf temp/
+chmod 775 -R /var/www/html/labpage/*
+
+ln -s /var/www/html/labpage/index_zh.html /var/www/html/labpage/index.html
+

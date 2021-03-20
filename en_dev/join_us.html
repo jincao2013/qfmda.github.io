@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+	<meta name="renderer" content="webkit">
+    <meta name="author" content="">
+    <link rel="icon" href="logo.ico">
+
+    <title>Quantum Functional Materials Design and Application Laboratory</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../dist/css/cover_en.css" rel="stylesheet">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- <script src="assets/js/ie-emulation-modes-warning.js"></script> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="dist/js/respond.min.js"></script>
+      <script src="dist/js/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body onload="init_display()">
+
+  <!-- 1. header start -->
+    <div class="container-fluid" id="site-wrapper">
+
+      <div class="row head_1">
+        <div class="row">
+          <div class="col-md-9"></div>
+          <div class="col-md-2">
+            <ul class="version">
+              <li><a href="../index_zh.html">中文</a></li>
+              <li class="active"><a href="../index_en.html">English</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <h1 class="lab_title">
+              Quantum functional material design and application lab
+            </p>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+
+      <div class="row head_2_nav">
+        <div class="col-md-10 col-md-offset-1" style="background-color:">
+          <ul class="nav masthead-nav">
+            <li><a href="../index_en.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="group_activity.html">Group Activity</a></li>
+            <li class="active"><a href="join_us.html">Join Us</a></li>
+            <li><a href="contact_us.html">Contact</a></li>
+          </ul>
+        </div>
+		<div class="col-md-1"></div>
+      </div>
+
+    </div>
+
+  <!-- 1. header end -->
+
+<!-- 2. main start -->
+    <div class="container">
+
+      <div class="row">
+        <!-- <h1 class="title" align="center"><b>Welcome !</b></h1> -->
+        <div class="col-md-12" style="height: 40px;"></div>
+        <div class="col-md-12">
+          <p class="lead text">
+            Lab of Quantum functional material design and application welcome you at Beijing Institute of Technology!
+          </p>
+          <p class="lead text">
+            Our main research interests include
+            <strong>spintronics</strong>,
+            <strong>abnormal transport theory</strong>,
+            <strong>topological insulators</strong>,
+            <strong>design of first-principles calculation program</strong>,
+            and experiment in low-dimensional functional materials preparation and measurement,
+            as well as their potential applications in photoelectric devices and novel energy materials.
+          </p>
+          <p class="lead text">
+           We are willing to cooperate with relevant labs all over the world, and are open for programs of student exchange or mutual visit.
+          </p>
+        </div>
+      </div>
+
+
+      <!-- Recruitment -->
+      <div class="row">
+        <h1 class="cover-heading title" align="center"><b>Opening</b></h1>
+        <div class="col-md-12" style="height: 20px;"></div>
+        <div class="col-md-3">
+          <button href="#1" onclick="func_1()" id="button_1" type="button" data-toggle="_collapse" class="btn btn-default btn-lg" style="width:250px;height:110px;">
+            <h2 class="title" style="color: #1565c0;">Faculty</h2>
+          </button>
+          <!-- <a href="#1" data-toggle="collapse"><h2 class="title" style="color: #1565c0;">Faculty and Postdoc</h2></a> -->
+        </div>
+        <div class="col-md-3">
+          <button href="#2" onclick="func_2()" id="button_2" type="button" data-toggle="_collapse" class="btn btn-default btn-lg" style="width:250px;height:110px;">
+            <h2 class="title" style="color: #1565c0;">Postdoc</h2>
+          </button>
+          <!-- <a href="#2" data-toggle="collapse"><h2 class="title" style="color: #1565c0;">Faculty and Postdoc</h2></a> -->
+        </div>
+        <div class="col-md-3">
+          <button href="#3" onclick="func_3()" id="button_3" type="button" data-toggle="_collapse" class="btn btn-default btn-lg" style="width:250px;height:110px;">
+            <h2 class="title" style="color: #1565c0;">Ph.D. Student</h2>
+          </button>
+          <!-- <a href="#3" data-toggle="collapse"><h2 class="title" style="color: #1565c0;">Ph.D. student</h2></a> -->
+        </div>
+        <div class="col-md-3">
+          <button href="#4" onclick="func_4()" id="button_4" type="button" data-toggle="_collapse" class="btn btn-default btn-lg" style="width:250px;height:110px;">
+            <h2 class="title" style="color: #1565c0;">Undergraduate</br> Student</h2>
+          </button>
+          <!-- <a href="#4" data-toggle="collapse"><h2 class="title" style="color: #1565c0;">Undergraduate Student</h2></a> -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="collapse-group" id="accordion" role="tablist" aria-multiselectable="false">
+
+          <!-- Recruitment 1 -->
+          <div class="" style="height: 20px;"></div>
+          <div class="col-md-12">
+            <div class="well collapse" id="1">
+
+              <h3 class="title">Faculty and Postdoc</h3>
+
+              <p class="lead text">
+                We have long-term recruitments of smart youth in computational physics, condensed matter theory, experimental physics. Area and requirement of recruitment (but not limited to the following directions)
+              </p>
+              <ol class="lead text">
+                      <li>Material growth and transport measurement of topology insulator: single crystal growth, CVD growth, MBE growth, PPMS physical measurement, etc.</li>
+                      <li>Two-dimensional material growth and physical properties measurement: single crystal growth, CVD growth, Raman spectroscopy, PL spectroscopy, transmission electron microscopy, XPS and other material characterization methods, as well as PPMS physical properties measurement and analysis</li>
+                      <li>Measurement and analysis of photoelectric response characteristics of materials, design and preparation of photoelectric devices, Plasmonics and so on</li>
+                      <li>Good at measurement and analysis of ultrafast spectroscopy and carrier dynamics, especially for measurement and analysis of nonlinear optical properties</li>
+                      <li>Magnetic and spintronics experiments: good at low dimensional material preparation and spintronics device fabrication, PPMS (magnetic susceptibility and magnetic transport measurements)</li>
+                      <li>Angle resolved photoelectron spectroscopy (ARPES) measurements. (Preferably for Project of Thousand Youth Talents)</li>
+                      <li>Condensed matter theory in collaboration with experiments</li>
+                      <li>Computational condensed matter physics in collaboration with experiments</li>
+              </ol>
+
+              <p class="lead subtitle"><b>Treatment</b></p>
+              <ol class="lead text">
+                <li>Postdoc: From 200 thousand RMB/year with offers of accommodation</li>
+                <li>Tenure-track assistant professor (Externally equivalent to associate researcher): 200-240 thousand RMB/year + Full insurance</li>
+                <li>Tenure-track associate professor or distinguished professor (Externally equivalent to researcher): 300-420 thousand RMB/year + Full insurance</li>
+                <li>Holder of Project of Thousand Youth Talents: 350-420 thousand RMB/year + Full insurance + 2 million housing subsidies</li>
+                <li>Other benefits (housing, low-rent housing and start-up funds) are listed in website of Personnel Division of Beijing Institute of Technology, or to be discussed at interview.</li>
+              </ol>
+
+              <p class="lead subtitle"><b>Contact information</b></p>
+              <p class="lead text">
+                Applicants may send resumes to:</br>
+                      Prof. Yugui Yao</br>
+                      E-mail:ygyao@bit.edu.cn; ygyao@iphy.ac.cn</br>
+              </p>
+
+            </div>
+          </div>
+
+          <!-- Recruitment 2 -->
+          <div class="" style="height: 20px;"></div>
+          <div class="col-md-12">
+            <div class="well collapse" id="2">
+
+              <h3 class="title">Faculty and Postdoc</h3>
+
+              <p class="lead text">
+                We have long-term recruitments of smart youth in computational physics, condensed matter theory, experimental physics. Area and requirement of recruitment (but not limited to the following directions)
+              </p>
+              <ol class="lead text">
+                      <li>Material growth and transport measurement of topology insulator: single crystal growth, CVD growth, MBE growth, PPMS physical measurement, etc.</li>
+                      <li>Two-dimensional material growth and physical properties measurement: single crystal growth, CVD growth, Raman spectroscopy, PL spectroscopy, transmission electron microscopy, XPS and other material characterization methods, as well as PPMS physical properties measurement and analysis</li>
+                      <li>Measurement and analysis of photoelectric response characteristics of materials, design and preparation of photoelectric devices, Plasmonics and so on</li>
+                      <li>Good at measurement and analysis of ultrafast spectroscopy and carrier dynamics, especially for measurement and analysis of nonlinear optical properties</li>
+                      <li>Magnetic and spintronics experiments: good at low dimensional material preparation and spintronics device fabrication, PPMS (magnetic susceptibility and magnetic transport measurements)</li>
+                      <li>Angle resolved photoelectron spectroscopy (ARPES) measurements. (Preferably for Project of Thousand Youth Talents)</li>
+                      <li>Condensed matter theory in collaboration with experiments</li>
+                      <li>Computational condensed matter physics in collaboration with experiments</li>
+              </ol>
+
+              <p class="lead subtitle"><b>Treatment</b></p>
+              <ol class="lead text">
+                <li>Postdoc: From 200 thousand RMB/year with offers of accommodation</li>
+                <li>Tenure-track assistant professor (Externally equivalent to associate researcher): 200-240 thousand RMB/year + Full insurance</li>
+                <li>Tenure-track associate professor or distinguished professor (Externally equivalent to researcher): 300-420 thousand RMB/year + Full insurance</li>
+                <li>Holder of Project of Thousand Youth Talents: 350-420 thousand RMB/year + Full insurance + 2 million housing subsidies</li>
+                <li>Other benefits (housing, low-rent housing and start-up funds) are listed in website of Personnel Division of Beijing Institute of Technology, or to be discussed at interview.</li>
+              </ol>
+
+              <p class="lead subtitle"><b>Contact information</b></p>
+              <p class="lead text">
+                Applicants may send resumes to:</br>
+                      Prof. Yugui Yao</br>
+                      E-mail:ygyao@bit.edu.cn; ygyao@iphy.ac.cn</br>
+              </p>
+
+            </div>
+          </div>
+          
+          <!-- Recruitment 3 -->
+          <div class="" style="height: 20px;"></div>
+          <div class="col-md-12">
+            <div class="well collapse" id="3">
+              <h3 class="title">Ph.D. student</h3>
+
+              <p class="lead text">
+                Annually, we plan to recruit a few graduate students and postdocs. Please contact with us before you ask for an examination or interview, especially if you only want a master's degree. Graduate students have opportunities to visit our international cooperators during the PhD program.
+              </p>
+
+              <p class="lead subtitle"><b>Before register for an examination, please notice:</b></p>
+              <ol class="lead text">
+                <li>Make sure that the applicant loves to do research.</li>
+                <li>Work hard, work initiatively.</li>
+                <li>We welcome students with physical background, as well as other interdisciplinary students.</li>
+                <li>We are happy to host graduation projects for outstanding undergraduates.</li>
+                <li>We have special programs for postdoctoral scholars with negotiable competitive treatment.</li>
+              </ol>
+
+            </div>
+          </div>
+
+          <!-- Recruitment 4 -->
+          <div class="" style="height: 20px;"></div>
+          <div class="col-md-12">
+            <div class="well collapse" id="4">
+              <h3 class="title">Undergraduate Student</h3>
+              <p class="lead text">
+                test </br>test </br>test </br>test </br>test </br>
+                test </br>test </br>test </br>test </br>test </br>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+<!-- 2. main end -->
+
+  <!-- 3. footer start   -->
+      <div class="row mastfoot">
+        <h5 class="text_light">Department of Physics, Beijing Institute of Technology | Quantum Functional Materials Design and Application Laboratory </h5>
+        <h5 class="text_light">Beijing Institute of Technology 5 South Zhongguancun Street Haidian District, Beijing 100081</h5>
+      </div>
+    </div>
+  <!-- 3. footer end -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../dist/js/jquery.min.js"></script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <script src="../dist/js/scripts.js"></script>
+    <!-- <script src="assets/js/docs.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="assets/js/ie10-viewport-bug-workaround.js"></script> -->
+
+    <script name="my_script">
+
+      var button_1 = false;
+      var button_2 = false;
+      var button_3 = false;
+      var button_4 = false;
+      document.getElementById("button_1").click();
+
+      function func_1() {
+        $('#1').collapse("toggle")
+        $('#2').collapse("hide")
+        $('#3').collapse("hide")
+        $('#4').collapse("hide")
+        //button_phd.click()
+      }
+      function func_2() {
+        $('#1').collapse("hide")
+        $('#2').collapse("toggle")
+        $('#3').collapse("hide")
+        $('#4').collapse("hide")
+        //button_phd.click()
+      }
+      function func_3() {
+        $('#1').collapse("hide")
+        $('#2').collapse("hide")
+        $('#3').collapse("toggle")
+        $('#4').collapse("hide")
+        //button_phd.click()
+      }
+      function func_4() {
+        $('#1').collapse("hide")
+        $('#2').collapse("hide")
+        $('#3').collapse("hide")
+        $('#4').collapse("toggle")
+        //button_phd.click()
+      }
+
+    </script>
+
+
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>
