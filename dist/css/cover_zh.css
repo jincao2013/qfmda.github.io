@@ -79,7 +79,7 @@ body {
   background: url(../../bg.svg) 0px 0px no-repeat fixed;
 */
   background-repeat: no-repeat;
-  background-position: fixed;
+  /*background-position: fixed;*/
 
   left: 0px;
   top: 0px;
@@ -95,7 +95,7 @@ body {
   height: 150px;
   padding:0px 0px 0px 0px;
   margin: -40px 0 0 0px;
-  background-color: ;
+  /*background-color: ;*/
 }
 
 .lab_title {
@@ -194,7 +194,7 @@ body {
   font-weight: 600;
 }
 .center-vertical {
-  position:down;
+  /*position:down;*/
   top:95%;
   transform:translateY(0%);
 }
