@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="renderer" content="webkit">
+  <meta name="author" content="">
+  <link rel="icon" href="logo.ico">
+
+  <title>Quantum Functional Materials Design and Application Laboratory</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../../dist/css/cover_en.css" rel="stylesheet">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <!-- <script src="assets/js/ie-emulation-modes-warning.js"></script> -->
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="../../dist/js/respond.min.js"></script>
+  <script src="../../dist/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body onload="init_display()">
+
+<!--
+  Instructions:
+  Four steps to for add a news
+  1. Title      (line 88)
+  2. Date       (line 90)
+  3. Paragraph  (line 96)
+  4. Link       (line 107)
+ -->
+
+<!-- 1. header start -->
+<div class="container-fluid" id="site-wrapper">
+
+  <div class="row head_1">
+    <div class="row">
+      <div class="col-md-9"></div>
+      <div class="col-md-2">
+        <ul class="version">
+          <li class="active"><a href="../../index_zh.html">中文</a></li>
+          <li><a href="../../index_en.html">English</a></li>
+        </ul>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <h1 class="lab_title">
+          量 子 功 能 材 料 设 计 与 应 用 实 验 室
+        </h1>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- 1. header end -->
+
+<!-- 2. main start -->
+<div class="container ">
+
+  <div class="row" style="height: 20px;"></div>
+
+  <div class="row">
+    <h1 class="title">姚裕贵教授团队在空间群不可约表示方面取得重要进展</h1>
+
+    <p class="lead text" style="font-weight: 400;color: #6d4c41">2021年04月20日 </p>
+
+    <div class="row" style="height: 30px;"></div>
+
+    <div class="row"></div>
+    <p class="lead text">
+      空间群及其不可约表示在凝聚态物理中有着重要的应用，尤其是在电子结构的对称性分析方面，例如确定选择定则，判断能带拓扑等。虽然基于密度泛函的电子结构计算已经发展了几十年，然而依然缺少一个易于使用的离线工具能够分析空间群及其不可约表示，例如获取群元并计算群乘、判断能带小表示、计算直积等。为满足这一需求，我们根据 C. J. Bradley和A. P. Cracknell的经典著作《固体对称性数学理论》一书中的约定（简称BC约定），采用Mathematica语言开发了SpaceGroupIrep程序包。该程序包既是一个数据库也是一个工具集，它包含完整的空间群不可约表示的数据（包括单值表示和双值表示）并提供一系列用于处理空间群及其不可约表示的工具函数。该程序包的主要功能包括：轻松获取指定空间群、小群、Herring小群以及小陪群的中心扩展的群元并计算其群乘，获取任意k点的小表示（例如下面图中为60号空间群A点的小表示）以及任意波矢星的空间群不可约表示，计算任意两个波矢星间的空间群不可约表示的直积，确定能带上任意简并态的小表示，将任意原胞转换为BC约定下的原胞并确定能带小表示，给出k点和小表示在BCS（Bilbao Crystallographic Server）约定和BC约定之间的对应。总之，SpaceGroupIrep程序包不仅能为将空间群及其表示理论应用于科研中提供极大的便利，也能为学习空间群及其表示理论提供十分重要的参考。可通过过如下网址免费获取SpaceGroupIrep程序包：
+    </p>
+    <p class="lead text">
+      <a href="https://github.com/goodluck1982/SpaceGroupIrep"> https://github.com/goodluck1982/SpaceGroupIrep</a>
+    </p>
+    <p class="lead text">
+      <img src="../../images/highlight/20210420/1.png" /> <br />
+      例：通过 showLGIrepTab[68,”A”] 命令得到的68号空间群在A点的小表示。
+    </p>
+    <div class="row" style="height: 30px;"></div>
+    <div class="row">
+      <p class="lead text">
+        >> <a href="https://doi.org/10.1016/j.cpc.2021.107993" target="_blank">文章链接</a>  <!-- 4. Link -->
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<div class="row" style="height: 50px;"></div>
+
+<!-- 2. main end -->
+
+<!-- 3. footer start   -->
+<div class="row mastfoot">
+  <h5 class="text_light">北京理工大学物理学院 | 量子功能材料设计与应用实验室</h5>
+  <h5 class="text_light">地址：北京市海淀区中关村南大街5号，邮编：100081</h5>
+</div>
+<!-- 3. footer end -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="../../dist/js/jquery.min.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<script src="../../dist/js/scripts.js"></script>
+<!-- <script src="assets/js/docs.min.js"></script> -->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!-- <script src="assets/js/ie10-viewport-bug-workaround.js"></script> -->
+
+
+
+</body>
+</html>
